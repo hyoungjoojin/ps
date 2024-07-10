@@ -1,0 +1,217 @@
+#!/usr/bin/env python3
+
+import argparse
+import hashlib
+import json
+import os
+import sys
+
+MAXIMUM_FILE_COUNT = 256
+
+METADATA_TEMPLATE = {
+    "id": "",
+    "url": "",
+    "title": "",
+    "tags": [],
+    "level": "",
+}
+
+AVAILABLE_LANGUAGES = {
+    "c++": {
+        "file_extension": ".cc",
+        "template": """\
+#include <iostream>
+
+int main(int argc, const char** argv) {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(nullptr);
+
+    return 0;
+}
+""",
+    },
+}
+
+
+def build_argument_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "-i",
+        "--init",
+        metavar="problem_set",
+        help="create a new problem set",
+    )
+    parser.add_argument(
+        "-a",
+        "--add",
+        nargs=2,
+        metavar=("problem_set", "problem_id"),
+        help="add a problem solution to an existing problem set",
+    )
+    parser.add_argument(
+        "-g",
+        "--get",
+        nargs=2,
+        metavar=("problem_set", "problem_id"),
+        help="print the path to the given problem_id.",
+    )
+    parser.add_argument(
+        "-l",
+        "--list",
+        metavar="problem_set",
+        help="list all solutions in the problem set",
+    )
+    parser.add_argument(
+        "--lang",
+        default=list(AVAILABLE_LANGUAGES.keys())[0],
+        help="language of the solution",
+    )
+    return parser
+
+
+def generate_hash(target: str) -> str:
+    return hashlib.md5(target.encode("utf-8")).hexdigest()
+
+
+def init_set(problem_set: os.PathLike) -> None:
+    if os.path.exists(problem_set):
+        print(f'Problem set "{problem_set}" already exists.', file=sys.stderr)
+        exit(1)
+
+    os.makedirs(problem_set, exist_ok=True)
+    os.makedirs(os.path.join(problem_set, "solutions"), exist_ok=True)
+
+    print(f'Problem set "{problem_set}" successfully created.')
+
+
+def add_problem(
+    problem_set: os.PathLike,
+    problem_id: str,
+    language: str,
+) -> None:
+    if language not in AVAILABLE_LANGUAGES:
+        print(
+            "Unknown language option!",
+            f"Language must be one of {AVAILABLE_LANGUAGES}",
+            file=sys.stderr,
+        )
+        exit(1)
+
+    base_dir = os.path.join(problem_set, "solutions", language)
+    os.makedirs(base_dir, exist_ok=True)
+
+    hash = generate_hash(problem_id)
+
+    save_dir, remainder = base_dir, hash
+    dirnames = [hash[i : i + 2] for i in range(0, len(hash), 2)]
+
+    for dirname in dirnames:
+        save_dir = os.path.join(save_dir, dirname)
+        remainder = remainder[2:]
+
+        if not os.path.exists(save_dir):
+            break
+
+        if len(os.listdir(save_dir)) > MAXIMUM_FILE_COUNT:
+            prefix = remainder[:2]
+            os.mkdir(os.path.join(save_dir, prefix))
+            for directory in os.listdir(save_dir):
+                if not directory.startswith(prefix):
+                    continue
+
+                os.rename(
+                    os.path.join(save_dir, directory),
+                    os.path.join(save_dir, prefix, directory[2:]),
+                )
+
+    save_dir = os.path.join(save_dir, remainder, problem_id)
+    os.makedirs(save_dir, exist_ok=True)
+
+    with open(
+        os.path.join(
+            save_dir,
+            f"solution{AVAILABLE_LANGUAGES[language]['file_extension']}",
+        ),
+        "w",
+    ) as f:
+        f.write(AVAILABLE_LANGUAGES[language]["template"])
+
+    with open(
+        os.path.join(
+            save_dir,
+            "metadata.json",
+        ),
+        "w",
+    ) as f:
+        metadata = METADATA_TEMPLATE.copy()
+        metadata["id"] = problem_id
+        json.dump(metadata, f, indent=4)
+
+    print(f'Problem "{problem_id}" successfully created at {save_dir}.')
+    os.chdir(save_dir)
+
+
+def get_problem(
+    problem_set: os.PathLike,
+    problem_id: str,
+    language: str,
+) -> str:
+    hash = generate_hash(problem_id)
+
+    target_dir = os.path.join(problem_set, "solutions", language)
+    remainder = hash
+    dirnames = [hash[i : i + 2] for i in range(0, len(hash), 2)]
+
+    for dirname in dirnames:
+        if not os.path.exists(os.path.join(target_dir, dirname)):
+            target_dir = os.path.join(target_dir, remainder)
+            break
+        target_dir = os.path.join(target_dir, dirname)
+        remainder = remainder[2:]
+
+    if not os.path.exists(target_dir):
+        print(
+            f"Problem {problem_id} not found in {problem_set}.",
+            file=sys.stderr,
+        )
+        return ""
+
+    print(target_dir)
+    return target_dir
+
+
+def list_problem_set(problem_set: os.PathLike):
+    for root, dirs, files in os.walk(problem_set):
+        for file in files:
+            if file != "metadata.json":
+                continue
+
+            path = os.path.join(root, "/".join(dirs), file)
+
+            with open(path, "r") as f:
+                problem = json.load(f)
+                print(f"{problem.get('id', '-')} {problem.get('title', '-')}")
+
+
+def main(args: argparse.Namespace):
+    if args.init is not None:
+        init_set(args.init)
+    elif args.add is not None:
+        problem_set, problem_id = args.add
+        add_problem(problem_set, problem_id, args.lang)
+    elif args.get is not None:
+        problem_set, problem_id = args.get
+        get_problem(problem_set, problem_id, args.lang)
+    elif args.list is not None:
+        list_problem_set(args.list)
+
+
+if __name__ == "__main__":
+    parser = build_argument_parser()
+
+    if len(sys.argv) == 1:
+        parser.print_help(sys.stderr)
+        sys.exit(0)
+
+    args = parser.parse_args()
+    main(args)
