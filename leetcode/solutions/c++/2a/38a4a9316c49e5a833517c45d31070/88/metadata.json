@@ -1,0 +1,11 @@
+{
+    "id": "88",
+    "url": "https://leetcode.com/problems/merge-sorted-array",
+    "title": "88. Merge Sorted Array",
+    "tags": [
+        "array",
+        "two pointers",
+        "sorting"
+    ],
+    "level": "easy"
+}
