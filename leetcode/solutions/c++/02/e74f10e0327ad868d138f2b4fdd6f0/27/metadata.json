@@ -1,0 +1,10 @@
+{
+    "id": "27",
+    "url": "https://leetcode.com/problems/remove-element",
+    "title": "27. Remove Element",
+    "tags": [
+        "array",
+        "two pointers"
+    ],
+    "level": "easy"
+}
