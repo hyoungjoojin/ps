@@ -1,0 +1,13 @@
+{
+    "id": "169",
+    "url": "https://leetcode.com/problems/majority-element",
+    "title": "169. Majority Element",
+    "tags": [
+        "array",
+        "hash",
+        "divide and conquer",
+        "sorting",
+        "counting"
+    ],
+    "level": "easy"
+}
