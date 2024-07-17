@@ -1,0 +1,10 @@
+{
+    "id": "1197",
+    "url": "https://www.acmicpc.net/problem/1197",
+    "title": "최소 스패닝 트리",
+    "tags": [
+        "graph",
+        "minimum spanning tree"
+    ],
+    "level": "Gold 4"
+}
