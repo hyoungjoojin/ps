@@ -1,0 +1,10 @@
+{
+    "id": "121",
+    "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock",
+    "title": "121. Best Time to Buy and Sell Stock",
+    "tags": [
+        "array",
+        "dynamic programming"
+    ],
+    "level": "easy"
+}
