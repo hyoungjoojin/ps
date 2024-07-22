@@ -1,0 +1,11 @@
+{
+    "id": "55",
+    "url": "https://leetcode.com/problems/jump-game",
+    "title": "55. Jump Game",
+    "tags": [
+        "array",
+        "dynamic programming",
+        "greedy"
+    ],
+    "level": "medium"
+}
