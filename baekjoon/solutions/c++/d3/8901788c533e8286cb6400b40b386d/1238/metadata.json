@@ -1,0 +1,11 @@
+{
+  "id": "1238",
+  "url": "https://www.acmicpc.net/problem/1238",
+  "title": "파티",
+  "tags": [
+    "graph",
+    "shortest distance",
+    "dijikstra's algorithm"
+  ],
+  "level": "Gold 3"
+}
