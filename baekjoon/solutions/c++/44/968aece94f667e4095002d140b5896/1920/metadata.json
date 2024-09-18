@@ -1,0 +1,11 @@
+{
+  "id": "1920",
+  "url": "https://www.acmicpc.net/problem/1920",
+  "title": "수 찾기",
+  "tags": [
+    "sorting",
+    "binary search",
+    "hashing"
+  ],
+  "level": "Silver 4"
+}
