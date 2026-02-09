@@ -36,6 +36,21 @@
 
 ## Binary Search
 
+### Parametric Search
+
+- Given integer arrays $A$ and $S$, we select $|S|$ non-overlapping intervals
+  from $A$ where the $i$-th interval has a size of $S_i$. Find the minimum value
+  of the maximum element selected from $A$.
+  - The problem can be solved by doing a parametric search on the maximum
+    allowed element and then taking a greedy approach to check if it's possible
+    to select the required intervals.
+
+  - Related Problems
+
+    |   Problem ID   | Notes |
+    | :------------: | :---: |
+    | SWEA 3813 (D6) |       |
+
 ## Graph Algorithms
 
 ### Graph Traversal Algorithms
@@ -74,6 +89,18 @@
 ## Tree Algorithms
 
 ## String Algorithms
+
+### Suffix Array
+
+- Given a string $s$, find the $k$-th lexicographically smallest suffix of $s$.
+  - This can also be solved in $O(N^2\log N)$ by generating all suffixes of the
+    input string and then sorting the array of suffixes.
+
+  - Related Problems
+
+    |   Problem ID   | Notes |
+    | :------------: | :---: |
+    | SWEA 1256 (D5) |       |
 
 ## Number Theory
 
