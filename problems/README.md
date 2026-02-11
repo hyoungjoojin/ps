@@ -1,4 +1,4 @@
-# Algorithms
+# Problems
 
 ## Data Structures
 
@@ -19,7 +19,25 @@
 
 ## Complete Search Algorithms
 
+### Backtracking
+
+#### Traveling Salesman Problem (TSP)
+
+- Given a set of points and a starting point, find the length of the shortest
+  possible route that visits every point.
+  - Related Problems
+
+    |    Problem ID     |                        Notes                        |
+    | :---------------: | :-------------------------------------------------: |
+    | BOJ 4991 (Gold 1) | The points are on a $N\times M$ grid with obstacles |
+
 ## Greedy Algorithms
+
+- Related Problems
+
+  |          Problem ID          | Notes |
+  | :--------------------------: | :---: |
+  | CODETREE VIRUS-DETECTOR (L4) |       |
 
 ## Dynamic Programming
 
@@ -87,6 +105,16 @@
 ### Spanning Tree Algorithms
 
 ## Tree Algorithms
+
+## Range Query
+
+- Given an array of integers, answer multiple queries of point updates and range
+  queries.
+  - Related Problems
+
+    |   Problem ID    |                     Notes                     |
+    | :-------------: | :-------------------------------------------: |
+    | SWEA 14726 (??) | Range queries ask for the maximum and minimum |
 
 ## String Algorithms
 
