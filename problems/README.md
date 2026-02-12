@@ -6,6 +6,27 @@
 
 ### Queue
 
+### Priority Queue
+
+- Find the minimum value in a sliding window of size $k$ as it moves through a
+  sequence of numbers.
+  - This problem can also be solved using a deque data structure.
+  - Related Problems
+
+    |     Problem ID     |    Notes    |
+    | :----------------: | :---------: |
+    | BOJ 11003 (Gold 1) | 최솟값 찾기 |
+
+#### Double-Ended Priority Queue
+
+- Implement a priority queue that can insert elements and extract the maximum
+  and minimum elements.
+  - Related Problems
+
+    |    Problem ID     |      Notes       |
+    | :---------------: | :--------------: |
+    | BOJ 7662 (Gold 4) | 이중 우선순위 큐 |
+
 ### Hash Table
 
 - Given two sets of strings, find the intersection of the two sets.
@@ -16,6 +37,13 @@
     | SWEA 2948 (D3) | Find the size of the intersection |
 
 ### Disjoint Set Union (DSU)
+
+- Given $n$ disjoint sets, perform union and find operations.
+  - Related Problems
+
+    |    Problem ID     |    Notes    |
+    | :---------------: | :---------: |
+    | BOJ 1717 (Gold 5) | 집합의 표현 |
 
 ## Complete Search Algorithms
 
@@ -81,6 +109,32 @@
 
 #### Dijkstra's Algorithm
 
+- Given a weighted directed graph with non-negative edges and a starting node
+  $x$, find the shortest path from node $x$ to all other nodes.
+  - Related Problems
+
+    |     Problem ID     |                       Notes                       |
+    | :----------------: | :-----------------------------------------------: |
+    | BOJ 1753 (Gold 4)  |                                                   |
+    | BOJ 11779 (Gold 3) | Construct the path from $x$ to a destination node |
+
+- Given a weighted directed graph with non-negative edges, find the maximum
+  round-trip distance from a node $x$ to all other nodes and back to $x$.
+  - Related Problems
+
+    |    Problem ID     | Notes |
+    | :---------------: | :---: |
+    | BOJ 1238 (Gold 3) |       |
+
+- Given a weighted undirected graph with non-negative edges, find the shortest
+  path from a starting node to an ending node that passes through two specific
+  nodes.
+  - Related Problems
+
+    |    Problem ID     | Notes |
+    | :---------------: | :---: |
+    | BOJ 1504 (Gold 4) |       |
+
 - Given a $n\times m$ grid of numbers, find the path from the top-left corner to
   the bottom-right corner such that the sum of numbers along the path is
   minimized, and return the sum.
@@ -89,18 +143,6 @@
     |   Problem ID   | Notes |
     | :------------: | :---: |
     | SWEA 1249 (D4) |       |
-
-- Given a directed graph with non-negative edge weights and a starting node $x$,
-  find $\sum_{v\in V}{d_{xv}} + \sum_{v\in V}{d_{vx}}$, where $d_{ij}$ is the
-  shortest path from node $i$ to node $j$.
-  - Dijkstra's algorithm can be applied twice, once on the original graph and
-    once on the reversed graph.
-
-  - Related Problems
-
-    | Problem ID | Notes |
-    | :--------: | :---: |
-    |            |       |
 
 ### Spanning Tree Algorithms
 
