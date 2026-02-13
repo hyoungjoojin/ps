@@ -13,9 +13,9 @@
   - This problem can also be solved using a deque data structure.
   - Related Problems
 
-    |     Problem ID     |    Notes    |
-    | :----------------: | :---------: |
-    | BOJ 11003 (Gold 1) | 최솟값 찾기 |
+    |     Problem ID     | Notes |
+    | :----------------: | :---: |
+    | BOJ 11003 (Gold 1) |       |
 
 #### Double-Ended Priority Queue
 
@@ -23,9 +23,9 @@
   and minimum elements.
   - Related Problems
 
-    |    Problem ID     |      Notes       |
-    | :---------------: | :--------------: |
-    | BOJ 7662 (Gold 4) | 이중 우선순위 큐 |
+    |    Problem ID     | Notes |
+    | :---------------: | :---: |
+    | BOJ 7662 (Gold 4) |       |
 
 ### Hash Table
 
@@ -36,14 +36,23 @@
     | :------------: | :-------------------------------: |
     | SWEA 2948 (D3) | Find the size of the intersection |
 
+- Given a grid of characters and a list of words, count how many times each word
+  can be formed by starting from any cell in the grid and moving to adjacent
+  cells.
+  - Related Problems
+
+    |     Problem ID     | Notes |
+    | :----------------: | :---: |
+    | BOJ 20166 (Gold 4) |       |
+
 ### Disjoint Set Union (DSU)
 
 - Given $n$ disjoint sets, perform union and find operations.
   - Related Problems
 
-    |    Problem ID     |    Notes    |
-    | :---------------: | :---------: |
-    | BOJ 1717 (Gold 5) | 집합의 표현 |
+    |    Problem ID     | Notes |
+    | :---------------: | :---: |
+    | BOJ 1717 (Gold 5) |       |
 
 ## Complete Search Algorithms
 
@@ -101,9 +110,36 @@
 
 ### Graph Traversal Algorithms
 
+- Given an unweighted undirected graph, find the minimum number of edges
+  required to make the graph connected.
+  - Related Problems
+
+    | Problem ID |                        Notes                        |
+    | :--------: | :-------------------------------------------------: |
+    | CSES 1666  | Return any valid set of edges that need to be added |
+
 #### Depth First Search (DFS)
 
 #### Breadth First Search (BFS)
+
+#### Bipartite Graph Check
+
+- Given an undirected graph, split the nodes into two sets such that there is no
+  edge between two nodes in the same set.
+  - Related Problems
+
+    | Problem ID | Notes |
+    | :--------: | :---: |
+    | CSES 1668  |       |
+
+### Topological Sort
+
+- Given a directed acyclic graph, find a topological ordering of its vertices.
+  - Related Problems
+
+    | Problem ID | Notes |
+    | :--------: | :---: |
+    |  BOJ 2252  |       |
 
 ### Shortest Path Algorithms
 
