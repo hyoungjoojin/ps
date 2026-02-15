@@ -114,9 +114,9 @@
   required to make the graph connected.
   - Related Problems
 
-    | Problem ID |                        Notes                        |
-    | :--------: | :-------------------------------------------------: |
-    | CSES 1666  | Return any valid set of edges that need to be added |
+    |   Problem ID   |                        Notes                        |
+    | :------------: | :-------------------------------------------------: |
+    | CSES 1666 (??) | Return any valid set of edges that need to be added |
 
 #### Depth First Search (DFS)
 
@@ -128,9 +128,9 @@
   edge between two nodes in the same set.
   - Related Problems
 
-    | Problem ID | Notes |
-    | :--------: | :---: |
-    | CSES 1668  |       |
+    |   Problem ID   | Notes |
+    | :------------: | :---: |
+    | CSES 1668 (??) |       |
 
 ### Topological Sort
 
@@ -193,6 +193,17 @@
     |   Problem ID    |                     Notes                     |
     | :-------------: | :-------------------------------------------: |
     | SWEA 14726 (??) | Range queries ask for the maximum and minimum |
+
+### Prefix Sum
+
+- Given an array of integers, count the number of subarrays that have a sum
+  equal to a target value.
+  - Related Problems
+
+    |   Problem ID   |                         Notes                          |
+    | :------------: | :----------------------------------------------------: |
+    | CSES 1661 (??) |                                                        |
+    | CSES 1662 (??) | Count the number of subarrays where $\sum{S}\mod n =0$ |
 
 ## String Algorithms
 
