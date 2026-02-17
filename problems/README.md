@@ -45,7 +45,19 @@
     | :----------------: | :---: |
     | BOJ 20166 (Gold 4) |       |
 
-### Disjoint Set Union (DSU)
+### Union-Find
+
+Union-find is the problem of maintaining a collection of disjoint sets and
+supporting two operations, union and find. Disjoint sets are sets where no two
+sets have any elements in common. Union merges two sets into a single set and
+find returns the set that contains a given element.
+
+Union-find can be implemented using a forest of trees. Path compression and
+union-by-rank can be used to optimize the union-find data structure to make the
+graph less skewed.
+
+Union-find operations can be reversed when using union-by-rank methods. This can
+be used for undoing union operations.
 
 - Given $n$ disjoint sets, perform union and find operations.
   - Related Problems
@@ -109,6 +121,17 @@
 ## Graph Algorithms
 
 ### Graph Traversal Algorithms
+
+- Given an undirected graph, find the number of connected components in the
+  graph.
+  - If the graph is given as a list of edges, we can also use union-find to
+    solve this problem.
+
+  - Related Problems
+
+    |   Problem ID   | Notes |
+    | :------------: | :---: |
+    | SWEA 7465 (D4) |       |
 
 - Given an unweighted undirected graph, find the minimum number of edges
   required to make the graph connected.
@@ -181,6 +204,14 @@
     | SWEA 1249 (D4) |       |
 
 ### Spanning Tree Algorithms
+
+- Given $n$ coordinates, find the minimum spanning tree of the complete graph
+  formed by the Euclidean distances between the coordinates.
+  - Related Problems
+
+    |   Problem ID   | Notes |
+    | :------------: | :---: |
+    | SWEA 1251 (D4) |       |
 
 ## Tree Algorithms
 
