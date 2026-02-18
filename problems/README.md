@@ -17,6 +17,24 @@
     | :----------------: | :---: |
     | BOJ 11003 (Gold 1) |       |
 
+- Given $n$ intervals, find the minimum number of slots required to place the
+  intervals without overlapping.
+  - Related Problems
+
+    |   Problem ID   |               Notes               |
+    | :------------: | :-------------------------------: |
+    | CSES 1164 (??) | Find the slot index for each pair |
+
+- Given an array of integers $A$, we can construct a sequence of integers $s$
+  such that $s_0 = 1$ and $s_i = s_{i-1} A[k] (i\gt 0)$. For a target number
+  $t$, find the minimum elements selected from any $s$ such that their sum is
+  equal to $t$.
+  - Related Problems
+
+    |   Problem ID    | Notes |
+    | :-------------: | :---: |
+    | SWEA 10806 (D6) |       |
+
 #### Double-Ended Priority Queue
 
 - Implement a priority queue that can insert elements and extract the maximum
@@ -214,6 +232,14 @@ be used for undoing union operations.
     | SWEA 1251 (D4) |       |
 
 ## Tree Algorithms
+
+### Tree Diameter
+
+### Binary Lifting
+
+### Lowest Common Ancestor (LCA)
+
+### Euler Tour Technique
 
 ## Range Query
 
