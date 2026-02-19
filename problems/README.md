@@ -123,6 +123,14 @@ be used for undoing union operations.
 
 ### Parametric Search
 
+- Given a value $N$ and a function $f(x)$, find the value $k$ such that
+  $f(k) = N$.
+  - Related Problems
+
+    |   Problem ID   |            Notes            |
+    | :------------: | :-------------------------: |
+    | SWEA 9843 (D5) | $f(x) = \frac{x(x + 1)}{2}$ |
+
 - Given integer arrays $A$ and $S$, we select $|S|$ non-overlapping intervals
   from $A$ where the $i$-th interval has a size of $S_i$. Find the minimum value
   of the maximum element selected from $A$.
