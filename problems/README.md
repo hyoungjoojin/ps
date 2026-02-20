@@ -98,6 +98,14 @@ be used for undoing union operations.
     | :---------------: | :-------------------------------------------------: |
     | BOJ 4991 (Gold 1) | The points are on a $N\times M$ grid with obstacles |
 
+## Simulation
+
+- Related Problems
+
+  |     Problem ID     | Notes |
+  | :----------------: | :---: |
+  | BOJ 23290 (Gold 1) |       |
+
 ## Greedy Algorithms
 
 - Related Problems
