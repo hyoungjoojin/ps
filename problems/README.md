@@ -7,6 +7,11 @@
   - Related Problems
     - [ ] BOJ 23290 (Gold 1)
 
+- Find the optimal solution by simulating all possible configurations of a
+  system.
+  - Related Problems
+    - [ ] BOJ 15683 (Gold 3)
+
 ## Complete Search Algorithms
 
 ### Backtracking
@@ -100,6 +105,12 @@
 
 ### Parametric Search
 
+- Given a function $f(x)$, find the maximum value of $x$ such that $f(x)$
+  becomes true.
+  - Related Problems
+    - [ ] CF 1201C (1400): Find the maximum median of an array after performing
+          at most $k$ increments.
+
 - Given a value $N$ and a function $f(x)$, find the value $k$ such that
   $f(k) = N$.
   - Related Problems
@@ -190,6 +201,8 @@
   formed by the Euclidean distances between the coordinates.
   - Related Problems
     - [ ] SWEA 1251 (D4)
+    - [ ] BOJ 1774 (Gold 3): Some edges already exist, and we need to find the
+          minimum additional length required to connect all points.
 
 ## Tree Algorithms
 
