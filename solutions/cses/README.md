@@ -10,3 +10,4 @@
 | [1662](./16/62) |     Subarray Divisibility     |
 | [1164](./11/64) |        Room Allocation        |
 | [1649](./16/49) | Dynamic Range Minimum Queries |
+| [1676](./16/76) |       Road Construction       |

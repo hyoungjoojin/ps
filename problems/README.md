@@ -6,6 +6,7 @@
   conditions.
   - Related Problems
     - [ ] BOJ 23290 (Gold 1)
+    - [ ] BOJ 21608 (Gold 5)
 
 - Find the optimal solution by simulating all possible configurations of a
   system.
@@ -90,6 +91,12 @@
 - Given $n$ disjoint sets, perform union and find operations.
   - Related Problems
     - [ ] BOJ 1717 (Gold 5)
+
+- Given a graph, find if two nodes are in the same connected component of the
+  graph where edges can be added dynamically to the graph.
+  - Related Problems
+    - [ ] CSES 1676 (??): Find the number of connected components and the size
+          of the largest connected component after each edge addition.
 
 ## Dynamic Programming
 
@@ -205,6 +212,12 @@
           minimum additional length required to connect all points.
 
 ## Tree Algorithms
+
+- Given a tree, find the minimum vertex cover of the tree. The vertex cover of a
+  tree is a set of vertices such that every edge of the tree is incident to at
+  least one vertex in the set.
+  - Related Problems
+    - [ ] BOJ 2533 (Gold 3): Find the size of the minimum vertex cover.
 
 ## Range Query Problems
 
