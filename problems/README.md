@@ -7,11 +7,13 @@
   - Related Problems
     - [ ] BOJ 23290 (Gold 1)
     - [ ] BOJ 21608 (Gold 5)
+    - [ ] BOJ 14503 (Gold 5)
 
 - Find the optimal solution by simulating all possible configurations of a
   system.
   - Related Problems
     - [ ] BOJ 15683 (Gold 3)
+    - [ ] BOJ 2931 (Gold 2)
 
 ## Complete Search Algorithms
 
@@ -110,6 +112,11 @@
 
 ## Binary Search
 
+- Given an array of integers, find two integers in the array such that their sum
+  is closest to zero.
+  - Related Problems
+    - [ ] BOJ 2470 (Gold 5)
+
 ### Parametric Search
 
 - Given a function $f(x)$, find the maximum value of $x$ such that $f(x)$
@@ -163,6 +170,19 @@
        water over time until the two swans are in the same connected component.
   - Related Problems
     - [ ] BOJ 3197 (Platinum 5)
+
+#### Graph Traversal On Numbers
+
+- Let $f$ be a function that transforms one integer to another integer. Given
+  two integers $x$ and $y$, find the minimum number of times we need to apply
+  $f$ to $x$ to get $y$.
+
+- Let $f$ be a function that transforms one integer to another integer. Given a
+  starting point $x$, find the maximum integer that can be obtained by applying
+  $f$ to $x$ at most $k$ times.
+  - Related Problems
+    - [ ] BOJ 1039 (Gold 2): The function $f$ swaps two digits of the input
+          integer.
 
 ### Bipartite Graph Check
 
