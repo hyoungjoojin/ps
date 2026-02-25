@@ -100,7 +100,24 @@
     - [ ] CSES 1676 (??): Find the number of connected components and the size
           of the largest connected component after each edge addition.
 
+- Given a graph, find if adding an edge creates a cycle in the graph.
+  - Related Problems
+    - [ ] BOJ 20040 (Gold 4): Given a sequence of edges added to an initially
+          empty graph, find the index of the first edge that creates a cycle.
+
 ## Dynamic Programming
+
+- Given an array of elements, we can group two adjacent groups of elements
+  together and merge them into one group with a cost equal to the sum of the two
+  groups. Find the minimum cost of merging all the elements into one group.
+  - Related Problems
+    - [ ] BOJ 11066 (Gold 3)
+
+- Given two arrays $T$ and $P$, select a set of indices such that the sum of the
+  values in $P$ at those indices is maximized, and for each selected index $i$,
+  the next selected index must be greater than or equal to $i + T[i]$.
+  - Related Problems
+    - [ ] BOJ 14501 (Silver 3)
 
 ### Longest Increasing Subsequence
 
@@ -159,7 +176,34 @@
   - Related Problems
     - [ ] CSES 1666 (??): Return any valid set of edges that need to be added.
 
+### Cycle Detection
+
+- Given a weighted directed graph, find the length of the shortest cycle in the
+  graph.
+  - Algorithm
+    1. If the graph is dense and the number of vertices is small, we can use the
+       Floyd-Warshall algorithm to find the shortest paths between all pairs of
+       vertices and then check for cycles.
+  - Related Problems
+    - [ ] BOJ 1956 (Gold 4): The graph is dense and the number of vertices is
+          small.
+
 #### Graph Traversal On Grids
+
+- Given a grid of walls and empty spaces, find the distance between the top-left
+  corner to the bottom-right corner.
+  - Related Problems
+    - [ ] BOJ 14442 (Gold 3): At most $k$ walls can be destroyed.
+
+- Within a grid, a grid can have two states: $s$ and $t$. For each time
+  iteration, the state of a cell changes from $s$ to $t$ if at least one of its
+  adjacent cells is in state $t$. Given the initial states of the grid, find the
+  state of the grid after $k$ time iterations.
+  - Related Problems
+    - [ ] BOJ 2636 (Gold 4): Cells change state only if they are conected to the
+          outer layer of the grid. Find the number of time iterations required
+          until all cells change state and the number of cells that change state
+          in the last iteration.
 
 - A grid of cells indicate water and land. For each time iteration, the water
   expands to adjacent land cells. Find how long it takes for two swans located
@@ -221,6 +265,13 @@
   minimized, and return the sum.
   - Related Problems
     - [ ] SWEA 1249 (D4)
+
+#### APSP Algorithms
+
+- Given a weighted directed graph, find the shortest path between all pairs of
+  vertices.
+  - Related Problems
+    - [ ] BOJ 11404 (Gold 4)
 
 ### Spanning Tree Algorithms
 
