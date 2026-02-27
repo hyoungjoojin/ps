@@ -304,6 +304,21 @@
   - Related Problems
     - [ ] SWEA 14726 (??): Range minimum queries and range maximum queries.
     - [ ] CSES 1649 (??): Range minimum queries.
+    - [ ] BOJ 2042 (Gold 1): Range sum queries.
+
+- Given an array of integers, answer multiple queries of range updates and point
+  queries.
+  - Related Problems
+    - [ ] BOJ 16975 (Platinum 4): Range increment updates and point queries.
+
+- Given an array $a$, for every element $a_i$, find the number of indices $j$
+  such that $j\lt i$ and $a_j\gt a_i$.
+  - Algorithms
+    1. This problem can be solved using a segment tree on the inversion count of
+       the array.
+  - Related Problems
+    - [ ] BOJ 1517 (Platinum 5): Given an array, find the number of swaps
+          required to sort the array using a bubble sort algorithm.
 
 ## String Algorithms
 
