@@ -9,6 +9,8 @@
     - [ ] BOJ 21608 (Gold 5)
     - [ ] BOJ 14503 (Gold 5)
     - [ ] BOJ 20056 (Gold 4)
+    - [ ] BOJ 20057 (Gold 3)
+    - [ ] BOJ 20058 (Gold 3)
 
 - Find the optimal solution by simulating all possible configurations of a
   system.
@@ -261,6 +263,19 @@
   - Related Problems
     - [ ] BOJ 1504 (Gold 4)
 
+- Given a weighted directed graph, find the path from a starting node to a
+  destination node such that the path does not include any edge that is part of
+  any shortest path from the starting node to the destination node.
+  - Algorithm
+    1. This can be solved by removing all edges that are part of any shortest
+       path from the starting node to the destination node and then finding the
+       shortest path in the remaining graph. Removing the edges can be done by
+       building a reverse graph from the initial graph in the process of
+       Dijkstra's algorithm and doing a graph traversal on the reverse graph to
+       visit and remove all edges that are part of any shortest path.
+  - Related Problems
+    - [ ] BOJ 5719 (Platinum 5)
+
 - Given a $n\times m$ grid of numbers, find the path from the top-left corner to
   the bottom-right corner such that the sum of numbers along the path is
   minimized, and return the sum.
@@ -337,6 +352,6 @@
   - Algorithms
     1. This can be solved in $O(N^2\log N)$ by generating all suffixes of the
        input string and then sorting the array of suffixes.
-
   - Related Problems
     - [ ] SWEA 1256 (D5)
+    - [ ] BOJ 11656 (Silver 4)
