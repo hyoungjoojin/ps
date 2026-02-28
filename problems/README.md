@@ -8,6 +8,7 @@
     - [ ] BOJ 23290 (Gold 1)
     - [ ] BOJ 21608 (Gold 5)
     - [ ] BOJ 14503 (Gold 5)
+    - [ ] BOJ 20056 (Gold 4)
 
 - Find the optimal solution by simulating all possible configurations of a
   system.
@@ -284,11 +285,17 @@
 
 ## Tree Algorithms
 
+### Dynamic Programming On Trees
+
 - Given a tree, find the minimum vertex cover of the tree. The vertex cover of a
   tree is a set of vertices such that every edge of the tree is incident to at
   least one vertex in the set.
   - Related Problems
     - [ ] BOJ 2533 (Gold 3): Find the size of the minimum vertex cover.
+    - [ ] BOJ 2213 (Gold 1): Find the maximum weight of an independent set of
+          the tree and print the vertices in the set. The independent set of a
+          graph is a set of vertices such that no two vertices in the set are
+          adjacent.
 
 ## Range Query Problems
 
@@ -305,6 +312,8 @@
     - [ ] SWEA 14726 (??): Range minimum queries and range maximum queries.
     - [ ] CSES 1649 (??): Range minimum queries.
     - [ ] BOJ 2042 (Gold 1): Range sum queries.
+    - [ ] BOJ 9345 (Platinum 3): Range queries on the presence of integers in a
+          range.
 
 - Given an array of integers, answer multiple queries of range updates and point
   queries.
