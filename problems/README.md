@@ -11,6 +11,7 @@
     - [ ] BOJ 20056 (Gold 4)
     - [ ] BOJ 20057 (Gold 3)
     - [ ] BOJ 20058 (Gold 3)
+    - [ ] BOJ 21610 (Gold 5)
 
 - Find the optimal solution by simulating all possible configurations of a
   system.
@@ -244,6 +245,11 @@
   - Related Problems
     - [ ] BOJ 2252
 
+- Given a weighted directed acyclic graph, find the weighted longest path from a
+  starting node to an ending node in a topological ordering of the graph.
+  - Related Problems
+    - [ ] BOJ 1005 (Gold 3)
+
 ### Shortest Path Algorithms
 
 - Given a weighted directed graph with non-negative edges and a starting node
@@ -263,6 +269,12 @@
   - Related Problems
     - [ ] BOJ 1504 (Gold 4)
 
+- Given a weighted directed graph with marked nodes, find the shortest path from
+  a starting node to any of the marked nodes.
+  - Related Problems
+    - [ ] BOJ 17835 (Gold 2): Find the maximum among the shortest paths from
+          each node to any of the marked nodes.
+
 - Given a weighted directed graph, find the path from a starting node to a
   destination node such that the path does not include any edge that is part of
   any shortest path from the starting node to the destination node.
@@ -275,6 +287,15 @@
        visit and remove all edges that are part of any shortest path.
   - Related Problems
     - [ ] BOJ 5719 (Platinum 5)
+
+- Given a weighted directed graph, find the $k$-th shortest path from a starting
+  node to a destination node.
+  - Algorithm
+    1. This can be solved using a modified Dijkstra's algorithm that maintains a
+       priority queue of paths and keeps track of the number of paths found to
+       each node.
+  - Related Problems
+    - [ ] BOJ 1854 (Platinum 4)
 
 - Given a $n\times m$ grid of numbers, find the path from the top-left corner to
   the bottom-right corner such that the sum of numbers along the path is
@@ -329,6 +350,12 @@
     - [ ] BOJ 2042 (Gold 1): Range sum queries.
     - [ ] BOJ 9345 (Platinum 3): Range queries on the presence of integers in a
           range.
+    - [ ] BOJ 14427 (Gold 3): Range minimum queries that ask for the index of
+          the minimum element in the range.
+    - [ ] BOJ 14428 (Gold 1): Range minimum queries that ask for the index of
+          the minimum element in the range.
+    - [ ] BOJ 5676 (Gold 1): Range queries on the sign of the product of
+          integers in a range.
 
 - Given an array of integers, answer multiple queries of range updates and point
   queries.
