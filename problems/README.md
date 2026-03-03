@@ -198,6 +198,8 @@
   corner to the bottom-right corner.
   - Related Problems
     - [ ] BOJ 14442 (Gold 3): At most $k$ walls can be destroyed.
+    - [ ] BOJ 1261 (Gold 4): Find the minimum number of walls that need to be
+          destroyed to get from the top-left corner to the bottom-right corner.
 
 - Within a grid, a grid can have two states: $s$ and $t$. For each time
   iteration, the state of a cell changes from $s$ to $t$ if at least one of its
@@ -297,6 +299,13 @@
   - Related Problems
     - [ ] BOJ 1854 (Platinum 4)
 
+- Given a weighted directed graph where the weight of each edge changes over
+  time, find the shortest path from a starting node to a destination node at a
+  specific time.
+  - Related Problems
+    - [ ] BOJ 13907 (Platinum 4): All edges increase their weight by a certain
+          amount at each time iteration.
+
 - Given a $n\times m$ grid of numbers, find the path from the top-left corner to
   the bottom-right corner such that the sum of numbers along the path is
   minimized, and return the sum.
@@ -370,6 +379,9 @@
   - Related Problems
     - [ ] BOJ 1517 (Platinum 5): Given an array, find the number of swaps
           required to sort the array using a bubble sort algorithm.
+    - [ ] BOJ 7578 (Platinum 5): Given two parallel lines with $N$ points on
+          each line, where each point on one line is connected to exactly one
+          point on the other line, find the number of intersections.
 
 ## String Algorithms
 
