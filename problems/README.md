@@ -12,6 +12,7 @@
     - [ ] BOJ 20057 (Gold 3)
     - [ ] BOJ 20058 (Gold 3)
     - [ ] BOJ 21610 (Gold 5)
+    - [ ] BOJ 21611 (Platinum 5)
 
 - Find the optimal solution by simulating all possible configurations of a
   system.
@@ -298,6 +299,14 @@
        each node.
   - Related Problems
     - [ ] BOJ 1854 (Platinum 4)
+
+- Given a weighted directed graph, a tortoise and a hare walks on the graph. The
+  tortoise walks at a constant speed, while the hare alternates between double
+  speed and half speed. Find the shortest path from a starting node to a
+  destination node for both the tortoise and the hare, and determine how many
+  nodes the tortoise can reach faster than the hare.
+  - Related Problems
+    - [ ] BOJ 16118 (Gold 1)
 
 - Given a weighted directed graph where the weight of each edge changes over
   time, find the shortest path from a starting node to a destination node at a
