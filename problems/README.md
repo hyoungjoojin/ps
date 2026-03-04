@@ -104,6 +104,8 @@
   - Related Problems
     - [ ] CSES 1676 (??): Find the number of connected components and the size
           of the largest connected component after each edge addition.
+    - [ ] BOJ 7511 (Gold 5): Answer queries about the connectivity of two
+          vertices after a sequence of edge additions.
 
 - Given a graph, find if adding an edge creates a cycle in the graph.
   - Related Problems
@@ -125,6 +127,11 @@
     - [ ] BOJ 14501 (Silver 3)
 
 ### Longest Increasing Subsequence
+
+- Given a sequence of integers, find the length of the longest increasing
+  subsequence in the sequence.
+  - Related Problems
+    - [ ] BOJ 3745 (Gold 2)
 
 ### 0-1 Knapsack Problem
 
@@ -195,12 +202,15 @@
 
 #### Graph Traversal On Grids
 
-- Given a grid of walls and empty spaces, find the distance between the top-left
-  corner to the bottom-right corner.
+- Given a grid of walls and empty spaces, find the distance between a cell to
+  another cell in the grid by moving through adjacent empty spaces.
   - Related Problems
-    - [ ] BOJ 14442 (Gold 3): At most $k$ walls can be destroyed.
+    - [ ] BOJ 14442 (Gold 3): Find the distance between the top-left corner and
+          the bottom-right corner where at most $k$ walls can be destroyed.
     - [ ] BOJ 1261 (Gold 4): Find the minimum number of walls that need to be
           destroyed to get from the top-left corner to the bottom-right corner.
+    - [ ] BOJ 19238 (Gold 2): Simulate a taxi that has to pick up and drop off
+          passengers on a grid with walls and empty spaces.
 
 - Within a grid, a grid can have two states: $s$ and $t$. For each time
   iteration, the state of a cell changes from $s$ to $t$ if at least one of its
@@ -330,6 +340,11 @@
 
 ### Spanning Tree Algorithms
 
+- Given a weighted graph, find the weight of the minimum spanning tree of the
+  graph.
+  - Related Problems
+    - [ ] BOJ 21924 (Gold 4)
+
 - Given $n$ coordinates, find the minimum spanning tree of the complete graph
   formed by the Euclidean distances between the coordinates.
   - Related Problems
@@ -350,6 +365,14 @@
           the tree and print the vertices in the set. The independent set of a
           graph is a set of vertices such that no two vertices in the set are
           adjacent.
+
+### Dynamic Programming On Graphs
+
+- GIven a graph with weighted nodes, find the longest path that can be traversed
+  starting from each node where we can only traverse to adjacent nodes with
+  greater weights.
+  - Related Problems
+    - [ ] BOJ 14699 (Gold 4)
 
 ## Range Query Problems
 
@@ -391,6 +414,12 @@
     - [ ] BOJ 7578 (Platinum 5): Given two parallel lines with $N$ points on
           each line, where each point on one line is connected to exactly one
           point on the other line, find the number of intersections.
+
+- Given a dynamic array of integers, answer queries that ask for the $k$-th
+  smallest element in the array.
+  - Related Problems
+    - [ ] BOJ 2243 (Platinum 5)
+    - [ ] BOJ 12899 (Platinum 4)
 
 ## String Algorithms
 
