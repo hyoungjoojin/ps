@@ -13,6 +13,7 @@
     - [ ] BOJ 20058 (Gold 3)
     - [ ] BOJ 21610 (Gold 5)
     - [ ] BOJ 21611 (Platinum 5)
+    - [ ] CODETREE CODETREE-OMAKASE (L18)
 
 - Find the optimal solution by simulating all possible configurations of a
   system.
@@ -420,10 +421,26 @@
   - Related Problems
     - [ ] BOJ 2243 (Platinum 5)
     - [ ] BOJ 12899 (Platinum 4)
+    - [ ] BOJ 1321 (Platinum 5)
 
 ## String Algorithms
 
+- Given a string $s$, find the longest substring of $s$ such that the substring
+  appears at least twice in $s$.
+  - Algorithm
+    1. This problem can be solved using a suffix array, where the maximum value
+       of the LCP array gives the length of the longest repeated substring.
+  - Related Problems
+    - [ ] BOJ 1605 (Platinum 3): Find the length of the longest repeated
+          substring.
+    - [ ] BOJ 3033 (Platinum 3): Find the length of the longest repeated
+          substring.
+
 ### Suffix Array
+
+- Given a string $s$, construct the suffix array of $s$.
+  - Related Problems
+    - [ ] BOJ 9248 (Platinum 3): Also, construct the LCP array of $s$.
 
 - Given a string $s$, find the $k$-th lexicographically smallest suffix of $s$.
   - Algorithms
