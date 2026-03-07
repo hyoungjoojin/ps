@@ -49,6 +49,13 @@
 
 ### Priority Queue
 
+- Given an array of integers, find the minimum number of times you need to
+  increment the first element of the array and decrement any other element of
+  the array by 1, until it becomes strictly greater than all other elements in
+  the array.
+  - Related Problems
+    - [ ] BOJ 1417 (Silver 5)
+
 - Find the minimum value in a sliding window of numbers.
   - Algorithm
     1. This can be solved using a lazy deletion priority queue by maintaining a
@@ -352,6 +359,11 @@
     - [ ] SWEA 1251 (D4)
     - [ ] BOJ 1774 (Gold 3): Some edges already exist, and we need to find the
           minimum additional length required to connect all points.
+
+- Given a grid of 0s and 1s, find the minimum total weight of bridges needed to
+  connect all the connected components of 1s. length.
+  - Related Problems
+    - [ ] BOJ 17472 (Gold 1)
 
 ## Tree Algorithms
 
