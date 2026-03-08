@@ -448,6 +448,12 @@
     - [ ] BOJ 3033 (Platinum 3): Find the length of the longest repeated
           substring.
 
+### Trie
+
+- Simulate a trie data structure.
+  - Related Problems
+    - [ ] BOJ 16934 (Gold 3)
+
 ### Suffix Array
 
 - Given a string $s$, construct the suffix array of $s$.
