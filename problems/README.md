@@ -21,6 +21,19 @@
     - [ ] BOJ 15683 (Gold 3)
     - [ ] BOJ 2931 (Gold 2)
 
+## Recursion
+
+- Given a problem that can be broken down into smaller subproblems, solve the
+  problem by recursively solving the subproblems and combining their results.
+  - Related Problems
+    - [ ] BOJ 1074 (Gold 5)
+    - [ ] BOJ 11729 (Gold 5): Print the sequence of moves to solve the Tower of
+          Hanoi problem.
+
+- Given a rule for drawing a star pattern, print the pattern of size N.
+  - Related Problems
+    - [ ] BOJ 2447 (Gold 5)
+
 ## Complete Search Algorithms
 
 ### Backtracking
@@ -121,6 +134,17 @@
           empty graph, find the index of the first edge that creates a cycle.
 
 ## Dynamic Programming
+
+- BOJ 2163 (Bronze 1)
+
+- Solve a fibonacci-like problem where the next state depends on a fixed number
+  of previous states.
+  - Related Problems
+    - [ ] BOJ 10870 (Bronze 2): Find the $n$-th Fibonacci number.
+    - [ ] BOJ 10826 (Silver 5): Find the $n$-th Fibonacci number where
+          $n \leq 10^4$.
+    - [ ] BOJ 9095 (Silver 3): Find the number of ways to express a number as a
+          sum of 1s, 2s, and 3s.
 
 - Given an array of elements, we can group two adjacent groups of elements
   together and merge them into one group with a cost equal to the sum of the two
