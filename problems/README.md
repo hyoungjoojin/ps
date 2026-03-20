@@ -58,6 +58,18 @@
 
 ### Stack
 
+- Given a string of parentheses, determine if the string is a valid parentheses
+  string or not.
+  - Related Problems
+    - [ ] BOJ 9012 (Silver 4)
+
+#### Monotonic Stack
+
+- Given an array of integers, for each element find the next greater element to
+  the right of the element.
+  - Related Problems
+    - [ ] BOJ 17298 (Gold 4)
+
 ### Queue
 
 ### Priority Queue
@@ -104,9 +116,15 @@
 
 ### Hash Table
 
-- Given two sets of strings, find the intersection of the two sets.
+- Given a list of names, answer queries that either ask for the name
+  corresponding to the index or the index corresponding to the name.
+  - Related Problems
+    - [ ] BOJ 1620 (Silver 4)
+
+- Given two sets of elements, find the intersection of the two sets.
   - Related Problems
     - [ ] SWEA 2948 (D3): Find the size of the intersection set.
+    - [ ] BOJ 1269 (Silver 4): Find the size of the symmetric difference set.
 
 - Given a grid of characters and a list of words, count how many times each word
   can be formed by starting from any cell in the grid and moving to adjacent
