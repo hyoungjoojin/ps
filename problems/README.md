@@ -54,6 +54,14 @@
     - [ ] CODETREE VIRUS-DETECTOR (L4)
     - [ ] BOJ 13458 (Bronze 2): Duplicate of CODETREE VIRUS-DETECTOR.
 
+## Two Pointers
+
+- Given two strings $s$ and $t$, return the minimum number of characters that
+  need to be appended to the end of $s$ so that $t$ becomes a subsequence of
+  $s$.
+  - Related Problems
+    - [ ] LEETCODE 2486 (Medium)
+
 ## Data Structures
 
 ### Stack
