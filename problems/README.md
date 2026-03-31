@@ -56,6 +56,11 @@
 
 ## Two Pointers
 
+- Given a string $s$, find the length of the longest substring without repeating
+  characters.
+  - Related Problems
+    - [ ] LEETCODE 3 (Medium)
+
 - Given two strings $s$ and $t$, return the minimum number of characters that
   need to be appended to the end of $s$ so that $t$ becomes a subsequence of
   $s$.
@@ -63,6 +68,15 @@
     - [ ] LEETCODE 2486 (Medium)
 
 ## Data Structures
+
+### Linked List
+
+- You are given two non-empty linked lists representing two non-negative
+  integers. The digits are stored in reverse order, and each of their nodes
+  contains a single digit. Add the two numbers and return the sum as a linked
+  list.
+  - Related Problems
+    - [ ] LEETCODE 2 (Medium)
 
 ### Stack
 
