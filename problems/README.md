@@ -48,6 +48,11 @@
 
 ## Greedy Algorithms
 
+- Given two strings $s$ and $t$ of equal length and consisting of only letters
+  $x$ and $y$, return the minimum number of swaps to make $s$ and $t$ equal.
+  - Related Problems
+    - [ ] LEETCODE 1247 (Medium)
+
 - Make locally optimal choices at each step with the hope of finding a global
   optimum.
   - Related Problems
@@ -273,6 +278,11 @@
           small.
 
 #### Graph Traversal On Grids
+
+- Given a grid of water and land, find the maximum distance from any land cell
+  to another land cell by moving through adjacent land cells.
+  - Related Problems
+    - [ ] BOJ 2589 (Gold 5)
 
 - Given a grid of walls and empty spaces, find the distance between a cell to
   another cell in the grid by moving through adjacent empty spaces.
