@@ -441,6 +441,11 @@
 
 ## Tree Algorithms
 
+- Given a tree, find the distance between two nodes in the tree.
+  - Related Problems
+    - [ ] BOJ 1240 (Gold 5): There are multiple queries that ask for the
+          distance between two nodes.
+
 ### Dynamic Programming On Trees
 
 - Given a tree, find the minimum vertex cover of the tree. The vertex cover of a
