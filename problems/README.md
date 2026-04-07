@@ -59,6 +59,15 @@
     - [ ] CODETREE VIRUS-DETECTOR (L4)
     - [ ] BOJ 13458 (Bronze 2): Duplicate of CODETREE VIRUS-DETECTOR.
 
+## Sorting
+
+## Cycle Sort
+
+- Given an unsorted array of integers, find the smallest positive integer that
+  does not appear in the array.
+  - Related Problems
+    - [ ] LEETCODE 41 (Hard)
+
 ## Two Pointers
 
 - Given a string $s$, find the length of the longest substring without repeating
@@ -131,6 +140,10 @@
   equal to $t$.
   - Related Problems
     - [ ] SWEA 10806 (D6)
+
+- Given $n$ sorted arrays, merge them into one sorted array.
+  - Related Problems
+    - [ ] LEETCODE 23 (Hard): Merge $k$ sorted linked lists.
 
 #### Double-Ended Priority Queue
 

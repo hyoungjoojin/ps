@@ -2,6 +2,13 @@
 
 ## Problems
 
+### Hard
+
+|     ID     |         Title          |
+| :--------: | :--------------------: |
+| [23](./23) |  Merge k Sorted Lists  |
+| [41](./41) | First Missing Positive |
+
 ### Medium
 
 |       ID        |                      Title                      |
