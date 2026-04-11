@@ -83,6 +83,16 @@
 
 ## Data Structures
 
+### Array
+
+- Given an array of integers, find if the array contains any duplicates.
+  - Related Problems
+    - [ ] LEETCODE 217 (Easy)
+
+- Given two strings, find if they are anagrams of each other.
+  - Related Problems
+    - [ ] LEETCODE 242 (Easy)
+
 ### Linked List
 
 - You are given two non-empty linked lists representing two non-negative
@@ -145,6 +155,10 @@
   - Related Problems
     - [ ] LEETCODE 23 (Hard): Merge $k$ sorted linked lists.
 
+- Given an array of integers, find the $k$ most frequent elements in the array.
+  - Related Problems
+    - [ ] LEETCODE 347 (Medium)
+
 #### Double-Ended Priority Queue
 
 - Implement a priority queue that can insert elements and extract the maximum
@@ -171,6 +185,10 @@
   cells.
   - Related Problems
     - [ ] BOJ 20166 (Gold 4)
+
+- Given an array of strings, group the anagrams together.
+  - Related Problems
+    - [ ] LEETCODE 49 (Medium)
 
 ### Union-Find
 
@@ -230,6 +248,15 @@
     - [ ] BOJ 12865 (Gold 5)
 
 ## Binary Search
+
+- Given an array of integers and a target integer, find the indices of the two
+  numbers in the array that add up to the target.
+  - Algorithm
+    1. This can be solved using a hash table by iterating through the array and
+       checking if the complement of the current element exists in the hash
+       table.
+  - Related Problems
+    - [ ] LEETCODE 1 (Easy)
 
 - Given an array of integers, find two integers in the array such that their sum
   is closest to zero.
@@ -559,3 +586,30 @@
   - Related Problems
     - [ ] SWEA 1256 (D5)
     - [ ] BOJ 11656 (Silver 4)
+
+## Geometry
+
+### CCW
+
+- Given three points in a 2D plane, determine whether they are in
+  counter-clockwise order, clockwise order, or collinear.
+  - Related Problems
+    - [ ] BOJ 11758 (Gold 5)
+
+### Convex Hull
+
+- Given $N$ points on a 2D plane, find the points that compose the convex hull
+  of the set of points.
+  - Related Problems
+    - [ ] BOJ 1708 (Platinum 5): Only return the number of points that compose
+          the convex hull. The convex hull should not include collinear points .
+
+## SQL
+
+### Joins
+
+- Given two tables, perform a left/right join on the tables based on a common
+  column.
+  - Related Problems
+    - [ ] LEETCODE 175 (Easy): Perform a left join on two tables based on a
+          common column.
