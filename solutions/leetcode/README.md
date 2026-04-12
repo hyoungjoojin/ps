@@ -19,6 +19,9 @@
 | [1247](./12/47) |       Minimum Swaps to Make Strings Equal       |
 |   [49](./49)    |                 Group Anagrams                  |
 |  [347](./34/7)  |             Top K Frequent Elements             |
+| [3890](./38/90) |     Integers With Multiple Sum of Two Cubes     |
+| [1631](./16/31) |            Path With Minimum Effort             |
+| [1070](./10/70) |           Product Sales Analysis III            |
 
 ### Easy
 
@@ -28,3 +31,4 @@
 | [242](./24/2) |   Valid Anagram    |
 |   [1](./1)    |      Two Sum       |
 | [175](./17/5) | Combine Two Tables |
+|  [20](./20)   | Valid Parentheses  |

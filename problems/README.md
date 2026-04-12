@@ -36,6 +36,12 @@
 
 ## Complete Search Algorithms
 
+- Given an integer $n$, find the number of integers in the range $[1, n]$ that
+  can be expressed as a sum of cubes of two positive integers in at least two
+  distinct ways.
+  - Related Problems
+    - [ ] LEETCODE 3890 (Medium)
+
 ### Backtracking
 
 #### Traveling Salesman Problem (TSP)
@@ -108,6 +114,8 @@
   string or not.
   - Related Problems
     - [ ] BOJ 9012 (Silver 4)
+    - [ ] LEETCODE 20 (Easy): The parentheses string can contain three types of
+          parentheses: `()`, `{}`, and `[]`.
 
 #### Monotonic Stack
 
@@ -452,6 +460,8 @@
   minimized, and return the sum.
   - Related Problems
     - [ ] SWEA 1249 (D4)
+    - [ ] LEETCODE 1631 (Medium): Find the path such that the maximum absolute
+          difference between adjacent numbers along the path is minimized.
 
 #### APSP Algorithms
 
@@ -613,3 +623,10 @@
   - Related Problems
     - [ ] LEETCODE 175 (Easy): Perform a left join on two tables based on a
           common column.
+
+### CTE
+
+- Given a table that contains pairs of $(x, y)$, find the pair of $(x, y)$ such
+  that $y$ is the largest value for a given $x$.
+  - Related Problems
+    - [ ] LEETCODE 1070 (Medium)
