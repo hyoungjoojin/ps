@@ -22,6 +22,9 @@
 | [3890](./38/90) |     Integers With Multiple Sum of Two Cubes     |
 | [1631](./16/31) |            Path With Minimum Effort             |
 | [1070](./10/70) |           Product Sales Analysis III            |
+|  [198](./19/8)  |                  House Robber                   |
+|  [200](./20/0)  |                Number of Islands                |
+|  [238](./23/8)  |          Product of Array Except Self           |
 
 ### Easy
 

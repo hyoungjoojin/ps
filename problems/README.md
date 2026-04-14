@@ -99,6 +99,12 @@
   - Related Problems
     - [ ] LEETCODE 242 (Easy)
 
+- Given an array of integers, find the product of all the elements of the array
+  except for the element at each index, and return the resulting array. Division
+  is not allowed.
+  - Related Problems
+    - [ ] LEETCODE 238 (Medium)
+
 ### Linked List
 
 - You are given two non-empty linked lists representing two non-negative
@@ -219,6 +225,11 @@
 
 ## Dynamic Programming
 
+- Given an array of integers, find the maximum sum of selected elements such
+  that no two selected elements are adjacent in the array.
+  - Related Problems
+    - [ ] LEETCODE 198 (Medium)
+
 - BOJ 2163 (Bronze 1)
 
 - Solve a fibonacci-like problem where the next state depends on a fixed number
@@ -326,6 +337,11 @@
           small.
 
 #### Graph Traversal On Grids
+
+- Given a grid of 0s and 1s, find the number of connected components of 1s in
+  the grid.
+  - Related Problems
+    - [ ] LEETCODE 200 (Medium)
 
 - Given a grid of water and land, find the maximum distance from any land cell
   to another land cell by moving through adjacent land cells.
@@ -488,6 +504,18 @@
   connect all the connected components of 1s. length.
   - Related Problems
     - [ ] BOJ 17472 (Gold 1)
+
+### Strongly Connected Components
+
+- Given a directed graph, find the strongly connected components of the graph.
+  - Related Problems
+    - [ ] BOJ 2150 (Platinum 5)
+
+- Given a directed graph, find the minimum number of vertices that can be chosen
+  such that all vertices in the graph are reachable from at least one of the
+  chosen vertices.
+  - Related Problems
+    - [ ] BOJ 4196 (Platinum 4)
 
 ## Tree Algorithms
 
