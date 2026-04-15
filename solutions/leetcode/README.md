@@ -28,10 +28,13 @@
 
 ### Easy
 
-|      ID       |       Title        |
-| :-----------: | :----------------: |
-| [217](./21/7) | Contains Duplicate |
-| [242](./24/2) |   Valid Anagram    |
-|   [1](./1)    |      Two Sum       |
-| [175](./17/5) | Combine Two Tables |
-|  [20](./20)   | Valid Parentheses  |
+|      ID       |        Title        |
+| :-----------: | :-----------------: |
+| [217](./21/7) | Contains Duplicate  |
+| [242](./24/2) |    Valid Anagram    |
+|   [1](./1)    |       Two Sum       |
+| [175](./17/5) | Combine Two Tables  |
+|  [20](./20)   |  Valid Parentheses  |
+| [344](./34/4) |   Reverse String    |
+| [125](./12/5) |  Valid Palindrome   |
+| [680](./68/0) | Valid Palindrome II |

@@ -54,6 +54,16 @@
 
 ## Greedy Algorithms
 
+- **Coin Change (Minimum Number of Coins that are Multiples of Each Other)**:
+  Given $n$ coins with amounts that are multiples of each other, and a target
+  amount $k$, find the minimum number of coins needed to make the amount $k$.
+  - Algorithm
+    1. This problem can be solved by taking a greedy approach, where we start
+       with the largest coin and use as many of that coin as possible until we
+       cannot use it anymore, and then move on to the next largest coin.
+  - Related Problems
+    - [ ] BOJ 11047 (Silver 4)
+
 - Given two strings $s$ and $t$ of equal length and consisting of only letters
   $x$ and $y$, return the minimum number of swaps to make $s$ and $t$ equal.
   - Related Problems
@@ -75,6 +85,14 @@
     - [ ] LEETCODE 41 (Hard)
 
 ## Two Pointers
+
+- Given a string, apply the two pointers technique to solve a problem related to
+  the string.
+  - Related Problems
+    - [ ] LEETCODE 344 (Easy): Reverse the string in-place.
+    - [ ] LEETCODE 125 (Easy): Determine if the string is a palindrome.
+    - [ ] LEETCODE 680 (Easy): Determine if the string can become a palindrome
+          after deleting at most one character.
 
 - Given a string $s$, find the length of the longest substring without repeating
   characters.
