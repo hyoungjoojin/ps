@@ -86,6 +86,10 @@
 
 ## Two Pointers
 
+- Given an array, rotate the array.
+  - Related Problems
+    - [ ] LEETCODE 189 (Medium)
+
 - Given a string, apply the two pointers technique to solve a problem related to
   the string.
   - Related Problems
