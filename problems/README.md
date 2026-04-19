@@ -664,6 +664,15 @@
     - [ ] BOJ 1708 (Platinum 5): Only return the number of points that compose
           the convex hull. The convex hull should not include collinear points .
 
+## Miscellaneous
+
+### Very Simple Problems
+
+- [ ] ATCODER ABC-320A (10): Given $A$ and $B$, print $A^B + B^A$.
+- [ ] ATCODER ABC-453A (28): Given a string, print the string obtained by
+      removing all leading consecutive `o`s from the input string.
+- [ ] ATCODER ABC-453B (49)
+
 ## SQL
 
 ### Joins
