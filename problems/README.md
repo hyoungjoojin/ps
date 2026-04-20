@@ -252,6 +252,13 @@
   - Related Problems
     - [ ] LEETCODE 198 (Medium)
 
+- **Coin Change (Number of Combinations)**: Given a target value $N$ and an
+  array of values, find the number of combinations of the allowed values that
+  sum up to $N$.
+  - Related Problems
+    - [ ] CSES 1633 (??): The allowed values are within the range $[1, 6]$ and
+          the order of values matters.
+
 - BOJ 2163 (Bronze 1)
 
 - Solve a fibonacci-like problem where the next state depends on a fixed number
@@ -287,6 +294,7 @@
 - Solve the 0-1 knapsack problem.
   - Related Problems
     - [ ] BOJ 12865 (Gold 5)
+    - [ ] ATCODER DP-D (??)
 
 ## Binary Search
 
