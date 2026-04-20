@@ -247,6 +247,28 @@
 
 ## Dynamic Programming
 
+### Fibonacci Sequence
+
+Fibonnaci sequence problems can be solved when a problem depends on a fixed
+number of previous smaller subproblems.
+
+- **Climbing Stairs**: Given an array of integers $A$, starting from the first
+  element of the array, we can step to index $i + 1$ or index $i + 2$ from index
+  $i$. Find the number of ways to reach the end of the array.
+  - Related Problems
+    - [ ] ATCODER DP-A: Find the minimum cost to reach the end of the array
+          where the cost of stepping from index $i$ to index $j$ is
+          $\lvert A[i] - A[j] \rvert$.
+
+- **Coin Change I**: Given an array of integers $A$, find the number of distinct
+  ways to write a target value $N$ as a sum of the elements in $A$ where the
+  order of elements matters.
+  - Related Problems
+    - [ ] CSES 1633: $A=\lbrace 1, 2, 3, 4, 5, 6\rbrace$.
+    - [ ] CSES 1635
+    - [ ] CSES 1634: Find the minimum number of elements in $A$ required to
+          write $N$ as a sum of the elements in $A$.
+
 - Given an array of integers, find the maximum sum of selected elements such
   that no two selected elements are adjacent in the array.
   - Related Problems
@@ -256,8 +278,6 @@
   array of values, find the number of combinations of the allowed values that
   sum up to $N$.
   - Related Problems
-    - [ ] CSES 1633 (??): The allowed values are within the range $[1, 6]$ and
-          the order of values matters.
 
 - BOJ 2163 (Bronze 1)
 

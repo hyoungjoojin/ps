@@ -12,3 +12,4 @@
 | [1649](./16/49) | Dynamic Range Minimum Queries |
 | [1676](./16/76) |       Road Construction       |
 | [1633](./16/33) |       Dice Combinations       |
+| [1635](./16/35) |      Coin Combinations I      |

@@ -15,3 +15,4 @@
 |       ID       |     Title      |
 | :------------: | :------------: |
 | [DP-D](./dp/d) | D - Knapsack 1 |
+| [DP-A](./dp/a) |   A - Frog 1   |

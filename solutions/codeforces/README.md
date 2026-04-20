@@ -6,4 +6,4 @@
 
 |             ID             |     Title      |
 | :------------------------: | :------------: |
-| [1201C](./contest/12/01/C) | Maximum Median |
+| [1201C](./contest/12/01/c) | Maximum Median |
