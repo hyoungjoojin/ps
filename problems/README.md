@@ -369,11 +369,6 @@ number of previous smaller subproblems.
   - Related Problems
     - [ ] SWEA 7465 (D4)
 
-- Given an unweighted undirected graph, find the minimum number of edges
-  required to make the graph connected.
-  - Related Problems
-    - [ ] CSES 1666 (??): Return any valid set of edges that need to be added.
-
 ### Cycle Detection
 
 - Given a weighted directed graph, find the length of the shortest cycle in the

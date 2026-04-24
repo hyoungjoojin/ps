@@ -13,3 +13,6 @@
 | [1676](./16/76) |       Road Construction       |
 | [1633](./16/33) |       Dice Combinations       |
 | [1635](./16/35) |      Coin Combinations I      |
+| [1634](./16/34) |       Minimizing Coins        |
+| [1674](./16/74) |         Subordinates          |
+| [1192](./11/92) |        Counting Rooms         |
