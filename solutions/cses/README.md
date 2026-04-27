@@ -16,3 +16,7 @@
 | [1634](./16/34) |       Minimizing Coins        |
 | [1674](./16/74) |         Subordinates          |
 | [1192](./11/92) |        Counting Rooms         |
+| [1193](./11/93) |           Labyrinth           |
+| [1667](./16/67) |         Message Route         |
+| [1671](./16/71) |       Shortest Routes I       |
+| [1194](./11/94) |           Monsters            |

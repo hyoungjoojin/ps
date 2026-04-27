@@ -6,6 +6,11 @@
 
 #### Graph Traversal
 
+- Given an undirected graph, find the shortest path from a given starting node
+  to a given destination node.
+  - Related Problems
+    - [ ] CSES 1667: Print any valid shortest path.
+
 - Given an unweighted undirected graph, find the minimum number of new edges
   required to make the graph connected.
   - Related Problems
@@ -32,8 +37,33 @@
   - Related Problems
     - [ ] CF 580C
 
-##### Flood Fill
+##### Graph Traversal on Grids
 
 - Given a grid of 0s and 1s, count the number of connected components of 1s.
   - Related Problems
     - [ ] CSES 1192
+
+- Given a grid of 0s and 1s, find the shortest path from a given starting point
+  to a given destination point.
+  - Related Problems
+    - [ ] CSES 1193: Print any valid path.
+
+- Given a grid of 0s and 1s, there is one entity of type A and multiple entities
+  of type B that can each move one step in every iteration. Find if the entity
+  of type A can reach the destination without being caught by the entities of
+  type B.
+  - Algorithms
+    1. We can use a multi-source BFS to find the minimum time required for type
+       B entities to reach each cell in the grid. Then, we can traverse the grid
+       starting from entity A's position and check if it can reach the
+       destination before any type B entity can reach the same cell.
+  - Related Problems
+    - [ ] CSES 1194: The destination is any border cell of the grid and if the
+          entity of type A can reach the destination, print any valid path.
+
+### Shortest Path Algorithms
+
+- Given a weighted graph, find the length of the shortest path from a starting
+  node to all other nodes.
+  - Related Problems
+    - [ ] CSES 1671
