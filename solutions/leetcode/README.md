@@ -26,6 +26,8 @@
 |  [200](./20/0)  |                Number of Islands                |
 |  [238](./23/8)  |          Product of Array Except Self           |
 |  [189](./18/9)  |                  Rotate Array                   |
+|  [207](./20/7)  |                 Course Schedule                 |
+|  [210](./21/0)  |               Course Schedule II                |
 
 ### Easy
 
@@ -39,3 +41,4 @@
 | [344](./34/4) |   Reverse String    |
 | [125](./12/5) |  Valid Palindrome   |
 | [680](./68/0) | Valid Palindrome II |
+| [268](./26/8) |   Missing Number    |

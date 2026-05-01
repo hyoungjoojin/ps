@@ -2,6 +2,18 @@
 
 ## Problems
 
+### Array
+
+- Given an array of integers containing $n$ distinct numbers taken from the
+  range $0$ to $n$, find the one that is missing from the array.
+  - Related Problems
+    - [ ] LC 268 (Easy)
+
+- **Two Sum**: Given an array of integers and a target sum, find any two values
+  in the array that sum up to the target sum.
+  - Related Problems
+    - [ ] CSES 1640
+
 ### Graph Algorithms
 
 #### Graph Traversal
@@ -61,9 +73,30 @@
     - [ ] CSES 1194: The destination is any border cell of the grid and if the
           entity of type A can reach the destination, print any valid path.
 
-### Shortest Path Algorithms
+#### Shortest Path Algorithms
 
 - Given a weighted graph, find the length of the shortest path from a starting
   node to all other nodes.
   - Related Problems
     - [ ] CSES 1671
+
+#### Topological Sort
+
+- Given a directed graph, determine if the graph contains a cycle and print any
+  valid topological ordering of its vertices if the graph is acyclic.
+  - Algorithms
+    1. If the problem asks just to determine if the graph contains a cycle, we
+       can use a DFS approach with colored nodes to detect cycles.
+  - Related Problems
+    - [ ] LC 207: Only determine if the graph contains a cycle.
+    - [ ] LC 210: Return any valid topological ordering of the vertices.
+
+### Geometry
+
+#### CCW
+
+- Given three points, determine whether the points are collinear, or whether the
+  third point is on the left or right side of the directed line from the first
+  point to the second point.
+  - Related Problems
+    - [ ] CSES 2189

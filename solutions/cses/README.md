@@ -20,3 +20,5 @@
 | [1667](./16/67) |         Message Route         |
 | [1671](./16/71) |       Shortest Routes I       |
 | [1194](./11/94) |           Monsters            |
+| [1640](./16/40) |       Sum of Two Values       |
+| [2189](./21/89) |      Point Location Test      |
