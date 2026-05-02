@@ -28,17 +28,25 @@
 |  [189](./18/9)  |                  Rotate Array                   |
 |  [207](./20/7)  |                 Course Schedule                 |
 |  [210](./21/0)  |               Course Schedule II                |
+|  [542](./54/2)  |                    01 Matrix                    |
+|  [973](./97/3)  |           K Closest Points to Origin            |
+|   [53](./53)    |                Maximum Subarray                 |
+|   [98](./98)    |           Validate Binary Search Tree           |
+|  [658](./65/8)  |             Find K Closest Elements             |
 
 ### Easy
 
-|      ID       |        Title        |
-| :-----------: | :-----------------: |
-| [217](./21/7) | Contains Duplicate  |
-| [242](./24/2) |    Valid Anagram    |
-|   [1](./1)    |       Two Sum       |
-| [175](./17/5) | Combine Two Tables  |
-|  [20](./20)   |  Valid Parentheses  |
-| [344](./34/4) |   Reverse String    |
-| [125](./12/5) |  Valid Palindrome   |
-| [680](./68/0) | Valid Palindrome II |
-| [268](./26/8) |   Missing Number    |
+|      ID       |         Title          |
+| :-----------: | :--------------------: |
+| [217](./21/7) |   Contains Duplicate   |
+| [242](./24/2) |     Valid Anagram      |
+|   [1](./1)    |        Two Sum         |
+| [175](./17/5) |   Combine Two Tables   |
+|  [20](./20)   |   Valid Parentheses    |
+| [344](./34/4) |     Reverse String     |
+| [125](./12/5) |    Valid Palindrome    |
+| [680](./68/0) |  Valid Palindrome II   |
+| [268](./26/8) |     Missing Number     |
+|  [21](./21)   | Merge Two Sorted Lists |
+| [191](./19/1) |    Number of 1 Bits    |
+| [704](./70/4) |     Binary Search      |

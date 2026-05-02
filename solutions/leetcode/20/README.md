@@ -1,6 +1,6 @@
 # Valid Parentheses
 
-> ID: LEETCODE 20 \
+> ID: LC 20 \
 > Level: Easy
 
 ## Description

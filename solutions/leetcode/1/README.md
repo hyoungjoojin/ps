@@ -1,6 +1,6 @@
 # Two Sum
 
-> ID: LEETCODE 1 \
+> ID: LC 1 \
 > Level: Easy
 
 ## Description

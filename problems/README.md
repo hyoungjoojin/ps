@@ -318,15 +318,6 @@ number of previous smaller subproblems.
 
 ## Binary Search
 
-- Given an array of integers and a target integer, find the indices of the two
-  numbers in the array that add up to the target.
-  - Algorithm
-    1. This can be solved using a hash table by iterating through the array and
-       checking if the complement of the current element exists in the hash
-       table.
-  - Related Problems
-    - [ ] LEETCODE 1 (Easy)
-
 - Given an array of integers, find two integers in the array such that their sum
   is closest to zero.
   - Related Problems
