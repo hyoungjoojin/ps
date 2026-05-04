@@ -40,6 +40,37 @@
     - [ ] LC 973 (Medium): Given an array of points on a 2D plane, find the $k$
           closest points to the origin.
 
+- **K-th Largest Element in a Stream**: Given a stream of integers and a value
+  $k$, find the $k$-th largest element at any point in time.
+  - Related Problems
+    - [ ] AC ABC-234D (503): Given a permutation of integers from 1 to $N$, for
+          each $i$ from $K$ to $N$, find the $K$-th largest element among the
+          first $i$ elements of the permutation.
+
+- **Task Scheduling**: Given an array of tasks, schedule them in a way that
+  minimizes the total time taken to complete all tasks.
+  - Related Problems
+    - [ ] LC 621 (Medium): Each task takes 1 time unit to complete and there is
+          a cooldown period of $n$ time units between two executions of the same
+          task.
+    - [ ] CSES 1164: Given a list of customers with their arrival and departure
+          times, find the minimum number of rooms required to accommodate all
+          customers and assign a room number to each customer.
+
+- Given a stream of integers, either select or skip each integer in the stream
+  to maximize some objective function while maintaining a certain constraint on
+  the selected integers at any point in time.
+  - Related Problems
+    - [ ] CF 1800C2 (1100): Given a deck of $n$ cards, each card has either 0 or
+          a positive integer value. For each positive integer value, we can
+          either put the card on top of the deck or discard it. For every card
+          with value 0, we can take a card from the top of the deck if the deck
+          is not empty. Find the maximum sum of the values of the cards that
+          were selected from the 0-value cards.
+    - [ ] CF 1526C2 (1600): Given a sequence of $n$ integers, we either select
+          and add the integer to our score or skip it. Find the maximum number
+          of selected integers such that the score is always non-negative.
+
 ### Sorting
 
 - **Merge Two Lists** : Given two sorted lists, merge them into a single sorted

@@ -33,6 +33,7 @@
 |   [53](./53)    |                Maximum Subarray                 |
 |   [98](./98)    |           Validate Binary Search Tree           |
 |  [658](./65/8)  |             Find K Closest Elements             |
+|  [621](./62/1)  |                 Task Scheduler                  |
 
 ### Easy
 

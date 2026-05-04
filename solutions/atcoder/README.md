@@ -2,6 +2,12 @@
 
 ## Problems
 
+### 500 - 1000
+
+|            ID            |      Title      | Difficulty |
+| :----------------------: | :-------------: | :--------: |
+| [ABC-234D](./abc/23/4/d) | Prefix K-th Max |    503     |
+
 ### 0 - 500
 
 |            ID            |          Title          | Difficulty |
