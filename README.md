@@ -162,6 +162,18 @@
   - Related Problems
     - [ ] CSES 1671
 
+- Given a weighted graph, find any valid shortest path from a starting node to a
+  destination node.
+  - Related Problems
+    - [ ] CF 20C (1900): Find the shortest path from vertex 1 to vertex $N$.
+
+- Find the shortest path from a starting state to a destination state given a
+  set of rules for transforming one state to another state and the cost of each
+  transformation.
+  - Related Problems
+    - [ ] CF 1846G (1900): The states are bit strings and the transformations
+          are defined by pairs of bit strings.
+
 #### Topological Sort
 
 - Given a directed graph, determine if the graph contains a cycle and print any

@@ -2,6 +2,13 @@
 
 ## Problems
 
+### 1900
+
+|             ID             |         Title         |
+| :------------------------: | :-------------------: |
+|   [20C](./contest/20/c)    |       Dijkstra?       |
+| [1846G](./contest/18/46/g) | Rudolf and CodeVid-23 |
+
 ### 1600
 
 |             ID             |      Title       |
