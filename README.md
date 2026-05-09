@@ -19,13 +19,37 @@
     - [ ] CSES 1640
     - [ ] LC 1 (Easy)
 
+- **Can Make Palindrome from Substring**: Given a string, answer queries about
+  whether a substring of the string can be rearranged to form a palindrome after
+  replacing at most $k$ characters.
+  - Related Problems
+    - [ ] LC 1177 (Medium)
+
+### Linked List
+
+- Given a linked list, find the $n$-th node in the linked list from the head of
+  the linked list.
+  - Related Problems
+    - [ ] LC 876 (Easy): Find the middle node of the linked list.
+
 ### Stack
+
+- Implement a stack data structure.
+  - Related Problems
+    - [ ] LC 225 (Easy): Implement a stack using queues.
 
 - **Valid Parentheses**: Given a string composed of parentheses characters,
   determine if the string is valid.
   - Related Problems
     - [ ] LC 20 (Easy): The string is composed of three types of parentheses
           characters.
+
+### Hash Table
+
+- **Longest Consecutive Sequence**: Given an unsorted array, return the length
+  of the longest sequence consisting of consecutive elements.
+  - Related Problems
+    - [ ] LC 128 (Medium)
 
 ### Priority Queue
 
@@ -77,6 +101,7 @@
   list.
   - Related Problems
     - [ ] LC 21 (Easy): Merge two sorted linked lists.
+    - [ ] LC 23 (Hard): Merge $k$ sorted linked lists.
 
 ### Binary Search
 
@@ -87,12 +112,34 @@
     - [ ] LC 658 (Medium): Given a sorted array, find the $k$ closest elements
           to a target value.
 
+#### Parametric Search
+
+- **Find the Smallest Divisor Given a Threshold**: Given an array of integers
+  and a threshold value, find the smallest integer such that the sum of each
+  number in the array divided by the integer is less than or equal to the
+  threshold.
+  - Related Problems
+    - [ ] LC 1283 (Medium)
+
+### Greedy Algorithms
+
+- **Monotone Increasing Digits**: Given an integer $n$, find the largest number
+  that is less than or equal to $n$ with monotone increasing digits.
+  - Related Problems
+    - [ ] LC 738 (Medium)
+
 ### Dynamic Programming
 
 - **Maximum Subarray**: Given an array of integers, find the contiguous subarray
   with the largest sum and return its sum.
   - Related Problems
     - [ ] LC 53 (Medium)
+
+
+- **Maximal Square**: Given a grid of 0s and 1s, find the largest square
+  containing only 1s and return its area.
+  - Related Problems
+    - [ ] LC 221 (Medium)
 
 ### Graph Algorithms
 
@@ -119,6 +166,10 @@
     - [ ] CF 727A: $x$ can be transformed to $2x$ or $10+1$.
 
 ##### Depth-First Search
+
+- Given a n-ary tree, find the maximum depth of the tree.
+  - Related Problems
+    - [ ] LC 559 (Easy)
 
 - Given a directed acyclic graph, count the number of children each node has.
   - Related Problems
@@ -187,11 +238,29 @@
 
 ### Tree Algorithms
 
+- Given a binary tree, use recursion to find some property of the binary tree.
+  - Related Problems
+    - [ ] LC 226 (Easy): Given a binary tree, invert the binary tree by swapping
+          left and right nodes for every single node of the tree.
+    - [ ] LC 104 (Easy): Given a binary tree, return its maximum depth.
+
 #### Binary Tree Traversal
 
 - Given a binary tree, determine if it is a valid binary search tree.
   - Related Problems
     - [ ] LC 98 (Medium)
+
+### String Algorithms
+
+- Given an array of strings, find the longest common prefix string.
+  - Related Problems
+    - [ ] LC 14 (Easy)
+
+### Mathematics
+
+- Add two numbers.
+  - Related Problems
+    - [ ] LC 415 (Easy): The numbers are represented as strings.
 
 ### Geometry
 
@@ -208,3 +277,14 @@
 - Given an integer, find the number of 1s in its binary representation.
   - Related Problems
     - [ ] LC 191 (Easy)
+
+### SQL
+
+- [ ] LC 1341 (Medium): `GROUP BY`, `UNION ALL`
+- [ ] LC 1978 (Easy): Subqueries
+- [ ] LC 176 (Medium): Get second highest value in a table.
+- [ ] LC 177 (Medium): Get $n$-th highest value in a table.
+- [ ] LC 178 (Medium): Get the rank of each score in a table.
+- [ ] LC 602 (Medium): `GROUP BY`, `ORDER BY`, `LIMIT`
+- [ ] LC 1045 (Medium): `GROUP BY`, `HAVING`
+- [ ] LC 1321 (Medium): Compute the moving average of weekly sales.
