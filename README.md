@@ -2,6 +2,16 @@
 
 ## Problems
 
+### LeetCode
+
+|          ID           |             Title              | Difficulty |
+| :-------------------: | :----------------------------: | :--------: |
+|   [LC 20](./lc/20)    |       Valid Parentheses        |    Easy    |
+|  [LC 204](./lc/20/4)  |          Count Primes          |   Medium   |
+|  [LC 300](./lc/30/0)  | Longest Increasing Subsequence |   Medium   |
+| [LC 1314](./lc/13/14) |        Matrix Block Sum        |   Medium   |
+| [LC 1922](./lc/19/22) |       Count Good Numbers       |   Medium   |
+
 ### Array
 
 - Given an array of integers containing $n$ distinct numbers taken from the
