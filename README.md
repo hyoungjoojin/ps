@@ -12,6 +12,16 @@
 | [LC 1314](./lc/13/14) |        Matrix Block Sum        |   Medium   |
 | [LC 1922](./lc/19/22) |       Count Good Numbers       |   Medium   |
 
+### Codeforces
+
+|           ID           |         Title          | Difficulty |
+| :--------------------: | :--------------------: | :--------: |
+|  [CF 27A](./cf/27/A)   |       Next Test        |    1200    |
+| [CF 304A](./cf/30/4/A) | Pythagorean Theorem II |    1200    |
+| [CF 315B](./cf/31/5/B) |    Sereja and Array    |    1200    |
+| [CF 368B](./cf/36/8/B) |  Sereja and Suffixes   |    1100    |
+| [CF 456A](./cf/45/6/A) |        Laptops         |    1100    |
+
 ### Array
 
 - Given an array of integers containing $n$ distinct numbers taken from the
@@ -145,6 +155,23 @@
   - Related Problems
     - [ ] LC 53 (Medium)
 
+- **Climbing Stairs**: Given an array of integers, for each step we can jump to
+  the next index or the index after the next index from the current index.
+  Starting from the first element of the array, find the number of ways to reach
+  the end of the array.
+  - Related Problems
+    - [ ] AC DP-A: Find the minimum cost to reach the end of the array where the
+          cost of stepping from index $i$ to index $j$ is
+          $\lvert A[i] - A[j] \rvert$.
+
+- **Coin Change I**: Given an array of integers $A$, find the number of distinct
+  ways to write a target value $N$ as a sum of the elements in $A$ where the
+  order of elements matters.
+  - Related Problems
+    - [ ] CSES 1633: $A=\lbrace 1, 2, 3, 4, 5, 6\rbrace$.
+    - [ ] CSES 1635
+    - [ ] CSES 1634: Find the minimum number of elements in $A$ required to
+          write $N$ as a sum of the elements in $A$.
 
 - **Maximal Square**: Given a grid of 0s and 1s, find the largest square
   containing only 1s and return its area.
@@ -298,3 +325,4 @@
 - [ ] LC 602 (Medium): `GROUP BY`, `ORDER BY`, `LIMIT`
 - [ ] LC 1045 (Medium): `GROUP BY`, `HAVING`
 - [ ] LC 1321 (Medium): Compute the moving average of weekly sales.
+- [ ] LC 185 (Hard): Find the top three entities for each group in a table.
