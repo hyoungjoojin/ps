@@ -6,7 +6,9 @@
 
 |          ID           |             Title              | Difficulty |
 | :-------------------: | :----------------------------: | :--------: |
+|    [LC 1](./lc/1)     |            Two Sum             |    Easy    |
 |   [LC 20](./lc/20)    |       Valid Parentheses        |    Easy    |
+|   [LC 53](./lc/53)    |        Maximum Subarray        |   Medium   |
 |  [LC 204](./lc/20/4)  |          Count Primes          |   Medium   |
 |  [LC 300](./lc/30/0)  | Longest Increasing Subsequence |   Medium   |
 | [LC 1314](./lc/13/14) |        Matrix Block Sum        |   Medium   |
@@ -14,13 +16,17 @@
 
 ### Codeforces
 
-|           ID           |         Title          | Difficulty |
-| :--------------------: | :--------------------: | :--------: |
-|  [CF 27A](./cf/27/A)   |       Next Test        |    1200    |
-| [CF 304A](./cf/30/4/A) | Pythagorean Theorem II |    1200    |
-| [CF 315B](./cf/31/5/B) |    Sereja and Array    |    1200    |
-| [CF 368B](./cf/36/8/B) |  Sereja and Suffixes   |    1100    |
-| [CF 456A](./cf/45/6/A) |        Laptops         |    1100    |
+|           ID           |                Title                | Difficulty |
+| :--------------------: | :---------------------------------: | :--------: |
+|  [CF 27A](./cf/27/A)   |              Next Test              |    1200    |
+|  [CF 61A](./cf/61/A)   |      Ultra-Fast Mathematician       |    800     |
+| [CF 230B](./cf/23/0/B) |              T-primes               |    1300    |
+| [CF 265B](./cf/26/5/B) | Roadside Trees (Simplified Edition) |    1000    |
+| [CF 304A](./cf/30/4/A) |       Pythagorean Theorem II        |    1200    |
+| [CF 315B](./cf/31/5/B) |          Sereja and Array           |    1200    |
+| [CF 368B](./cf/36/8/B) |         Sereja and Suffixes         |    1100    |
+| [CF 456A](./cf/45/6/A) |               Laptops               |    1100    |
+| [CF 467B](./cf/46/7/B) |         Fedor and New Game          |    1100    |
 
 ### Array
 
