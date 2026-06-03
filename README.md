@@ -4,15 +4,20 @@
 
 ### LeetCode
 
-|          ID           |             Title              | Difficulty |
-| :-------------------: | :----------------------------: | :--------: |
-|    [LC 1](./lc/1)     |            Two Sum             |    Easy    |
-|   [LC 20](./lc/20)    |       Valid Parentheses        |    Easy    |
-|   [LC 53](./lc/53)    |        Maximum Subarray        |   Medium   |
-|  [LC 204](./lc/20/4)  |          Count Primes          |   Medium   |
-|  [LC 300](./lc/30/0)  | Longest Increasing Subsequence |   Medium   |
-| [LC 1314](./lc/13/14) |        Matrix Block Sum        |   Medium   |
-| [LC 1922](./lc/19/22) |       Count Good Numbers       |   Medium   |
+|          ID           |              Title              | Difficulty |
+| :-------------------: | :-----------------------------: | :--------: |
+|    [LC 1](./lc/1)     |             Two Sum             |    Easy    |
+|   [LC 20](./lc/20)    |        Valid Parentheses        |    Easy    |
+|   [LC 53](./lc/53)    |        Maximum Subarray         |   Medium   |
+|  [LC 204](./lc/20/4)  |          Count Primes           |   Medium   |
+|  [LC 300](./lc/30/0)  | Longest Increasing Subsequence  |   Medium   |
+|  [LC 344](./lc/34/4)  |         Reverse String          |    Easy    |
+|  [LC 347](./lc/34/7)  |     Top K Frequent Elements     |   Medium   |
+|  [LC 463](./lc/46/3)  |        Island Perimeter         |    Easy    |
+|  [LC 703](./lc/70/3)  | Kth Largest Element in a Stream |    Easy    |
+|  [LC 704](./lc/70/4)  |          Binary Search          |    Easy    |
+| [LC 1314](./lc/13/14) |        Matrix Block Sum         |   Medium   |
+| [LC 1922](./lc/19/22) |       Count Good Numbers        |   Medium   |
 
 ### Codeforces
 
