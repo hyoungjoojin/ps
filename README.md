@@ -35,7 +35,9 @@
 | [CF 315B](./cf/31/5/B) |          Sereja and Array           |    1200    |
 | [CF 368B](./cf/36/8/B) |         Sereja and Suffixes         |    1100    |
 | [CF 456A](./cf/45/6/A) |               Laptops               |    1100    |
+| [CF 466A](./cf/46/6/A) |            Cheap Travel             |    1200    |
 | [CF 467B](./cf/46/7/B) |         Fedor and New Game          |    1100    |
+| [CF 483A](./cf/48/3/A) |           Counterexample            |    1100    |
 
 ### Array
 
