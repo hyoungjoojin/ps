@@ -38,18 +38,31 @@
 | [CF 466A](./cf/46/6/A) |            Cheap Travel             |    1200    |
 | [CF 467B](./cf/46/7/B) |         Fedor and New Game          |    1100    |
 | [CF 483A](./cf/48/3/A) |           Counterexample            |    1100    |
+| [CF 687A](./cf/68/7/A) |           NP-Hard Problem           |    1500    |
 
 ### AtCoder
 
-|         ID          |    Title     |
-| :-----------------: | :----------: |
-| [AC DP-A](/ac/dp/A) |    Frog 1    |
-| [AC DP-B](/ac/dp/B) |    Frog 2    |
-| [AC DP-C](/ac/dp/C) |   Vacation   |
-| [AC DP-D](/ac/dp/D) |  Knapsack 1  |
-| [AC DP-F](/ac/dp/F) |     LCS      |
-| [AC DP-G](/ac/dp/G) | Longest Path |
-| [AC DP-H](/ac/dp/H) |    Grid 1    |
+|               ID               |         Title          |
+| :----------------------------: | :--------------------: |
+| [AC ABC-461A](./ac/abc/46/1/A) |         Armor          |
+| [AC ABC-461B](./ac/abc/46/1/B) | The Honest Woodcutters |
+|      [AC DP-A](/ac/dp/A)       |         Frog 1         |
+|      [AC DP-B](/ac/dp/B)       |         Frog 2         |
+|      [AC DP-C](/ac/dp/C)       |        Vacation        |
+|      [AC DP-D](/ac/dp/D)       |       Knapsack 1       |
+|      [AC DP-F](/ac/dp/F)       |          LCS           |
+|      [AC DP-G](/ac/dp/G)       |      Longest Path      |
+|      [AC DP-H](/ac/dp/H)       |         Grid 1         |
+|      [AC DP-I](./ac/dp/I)      |         Coins          |
+
+### CSES
+
+|            ID             |     Title      |
+| :-----------------------: | :------------: |
+| [CSES 1158](./cses/11/58) |   Book Shop    |
+| [CSES 1192](./cses/11/92) | Counting Rooms |
+| [CSES 1638](./cses/16/38) |  Grid Paths I  |
+| [CSES 1745](./cses/17/45) |   Money Sums   |
 
 ### Array
 
