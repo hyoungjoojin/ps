@@ -25,20 +25,23 @@
 
 ### Codeforces
 
-|           ID           |                Title                | Difficulty |
-| :--------------------: | :---------------------------------: | :--------: |
-|  [CF 27A](./cf/27/A)   |              Next Test              |    1200    |
-|  [CF 61A](./cf/61/A)   |      Ultra-Fast Mathematician       |    800     |
-| [CF 230B](./cf/23/0/B) |              T-primes               |    1300    |
-| [CF 265B](./cf/26/5/B) | Roadside Trees (Simplified Edition) |    1000    |
-| [CF 304A](./cf/30/4/A) |       Pythagorean Theorem II        |    1200    |
-| [CF 315B](./cf/31/5/B) |          Sereja and Array           |    1200    |
-| [CF 368B](./cf/36/8/B) |         Sereja and Suffixes         |    1100    |
-| [CF 456A](./cf/45/6/A) |               Laptops               |    1100    |
-| [CF 466A](./cf/46/6/A) |            Cheap Travel             |    1200    |
-| [CF 467B](./cf/46/7/B) |         Fedor and New Game          |    1100    |
-| [CF 483A](./cf/48/3/A) |           Counterexample            |    1100    |
-| [CF 687A](./cf/68/7/A) |           NP-Hard Problem           |    1500    |
+|            ID            |                Title                | Difficulty |
+| :----------------------: | :---------------------------------: | :--------: |
+|   [CF 27A](./cf/27/A)    |              Next Test              |    1200    |
+|   [CF 61A](./cf/61/A)    |      Ultra-Fast Mathematician       |    800     |
+|  [CF 230B](./cf/23/0/B)  |              T-primes               |    1300    |
+|  [CF 265B](./cf/26/5/B)  | Roadside Trees (Simplified Edition) |    1000    |
+|  [CF 304A](./cf/30/4/A)  |       Pythagorean Theorem II        |    1200    |
+|  [CF 315B](./cf/31/5/B)  |          Sereja and Array           |    1200    |
+|  [CF 368B](./cf/36/8/B)  |         Sereja and Suffixes         |    1100    |
+|  [CF 456A](./cf/45/6/A)  |               Laptops               |    1100    |
+|  [CF 466A](./cf/46/6/A)  |            Cheap Travel             |    1200    |
+|  [CF 467B](./cf/46/7/B)  |         Fedor and New Game          |    1100    |
+|  [CF 483A](./cf/48/3/A)  |           Counterexample            |    1100    |
+|  [CF 687A](./cf/68/7/A)  |           NP-Hard Problem           |    1500    |
+| [CF 1915E](./cf/19/15/E) |          Romantic Glasses           |    1300    |
+| [CF 1927D](./cf/19/27/D) |      Find the Different Ones!       |    1300    |
+| [CF 1931D](./cf/19/31/D) |           Divisible Pairs           |    1300    |
 
 ### AtCoder
 
