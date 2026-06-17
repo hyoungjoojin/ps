@@ -67,6 +67,17 @@
 | [CSES 1638](./cses/16/38) |  Grid Paths I  |
 | [CSES 1745](./cses/17/45) |   Money Sums   |
 
+### 프로그래머스
+
+|            ID            |     Title     | Difficulty |
+| :----------------------: | :-----------: | :--------: |
+| [PG 43162](./pg/43/16/2) |   네트워크    |     3      |
+| [PG 43238](./pg/43/23/8) |   입국심사    |     3      |
+| [PG 49189](./pg/49/18/9) | 가장 먼 노드  |     3      |
+| [PG 67256](./pg/67/25/6) | 키패드 누르기 |     1      |
+| [PG 67257](./pg/67/25/7) |  수식 최대화  |     2      |
+| [PG 67258](./pg/67/25/8) |   보석 쇼핑   |     3      |
+
 ### Array
 
 - Given an array of integers containing $n$ distinct numbers taken from the
