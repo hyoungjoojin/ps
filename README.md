@@ -32,6 +32,7 @@
 |   [CF 61A](./cf/61/A)    |      Ultra-Fast Mathematician       |    800     |
 |  [CF 230B](./cf/23/0/B)  |              T-primes               |    1300    |
 |  [CF 265B](./cf/26/5/B)  | Roadside Trees (Simplified Edition) |    1000    |
+|  [CF 279B](./cf/27/9/B)  |                Books                |    1400    |
 |  [CF 304A](./cf/30/4/A)  |       Pythagorean Theorem II        |    1200    |
 |  [CF 315B](./cf/31/5/B)  |          Sereja and Array           |    1200    |
 |  [CF 368B](./cf/36/8/B)  |         Sereja and Suffixes         |    1100    |
@@ -41,6 +42,7 @@
 |  [CF 466A](./cf/46/6/A)  |            Cheap Travel             |    1200    |
 |  [CF 467B](./cf/46/7/B)  |         Fedor and New Game          |    1100    |
 |  [CF 483A](./cf/48/3/A)  |           Counterexample            |    1100    |
+|  [CF 598A](./cf/59/8/A)  |             Tricky Sum              |    900     |
 |  [CF 687A](./cf/68/7/A)  |           NP-Hard Problem           |    1500    |
 |  [CF 707B](./cf/70/7/B)  |               Bakery                |    1300    |
 | [CF 1915E](./cf/19/15/E) |          Romantic Glasses           |    1300    |
@@ -51,6 +53,7 @@
 
 |               ID               |         Title          |
 | :----------------------------: | :--------------------: |
+| [AC ABC-130D](./ac/abc/13/0/D) |      Enough Array      |
 | [AC ABC-131D](./ac/abc/13/1/D) |      Megalomania       |
 | [AC ABC-461A](./ac/abc/46/1/A) |         Armor          |
 | [AC ABC-461B](./ac/abc/46/1/B) | The Honest Woodcutters |
@@ -67,17 +70,20 @@
 
 |            ID             |             Title             |
 | :-----------------------: | :---------------------------: |
+| [CSES 1141](./cses/11/41) |           Playlist            |
 | [CSES 1158](./cses/11/58) |           Book Shop           |
 | [CSES 1192](./cses/11/92) |        Counting Rooms         |
 | [CSES 1638](./cses/16/38) |         Grid Paths I          |
 | [CSES 1648](./cses/16/48) |   Dynamic Range Sum Queries   |
 | [CSES 1649](./cses/16/49) | Dynamic Range Minimum Queries |
 | [CSES 1745](./cses/17/45) |          Money Sums           |
+| [CSES 2428](./cses/24/28) | Distinct Values Subarrays II  |
 
 ### 프로그래머스
 
 |            ID            |     Title     | Difficulty |
 | :----------------------: | :-----------: | :--------: |
+| [PG 42897](./pg/42/89/7) |    도둑질     |     4      |
 | [PG 43162](./pg/43/16/2) |   네트워크    |     3      |
 | [PG 43238](./pg/43/23/8) |   입국심사    |     3      |
 | [PG 49189](./pg/49/18/9) | 가장 먼 노드  |     3      |
