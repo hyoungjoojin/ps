@@ -70,14 +70,23 @@
 
 |            ID             |             Title             |
 | :-----------------------: | :---------------------------: |
+| [CSES 1068](./cses/10/68) |        Weird Algorithm        |
+| [CSES 1069](./cses/10/69) |          Repetitions          |
+| [CSES 1070](./cses/10/70) |         Permutations          |
+| [CSES 1071](./cses/10/71) |         Number Spiral         |
+| [CSES 1083](./cses/10/83) |        Missing Number         |
+| [CSES 1094](./cses/10/94) |       Increasing Array        |
 | [CSES 1141](./cses/11/41) |           Playlist            |
 | [CSES 1158](./cses/11/58) |           Book Shop           |
 | [CSES 1192](./cses/11/92) |        Counting Rooms         |
+| [CSES 1621](./cses/16/21) |        Distint Numbers        |
 | [CSES 1638](./cses/16/38) |         Grid Paths I          |
+| [CSES 1643](./cses/16/43) |     Maximum Subarray Sum      |
 | [CSES 1648](./cses/16/48) |   Dynamic Range Sum Queries   |
 | [CSES 1649](./cses/16/49) | Dynamic Range Minimum Queries |
 | [CSES 1745](./cses/17/45) |          Money Sums           |
 | [CSES 2428](./cses/24/28) | Distinct Values Subarrays II  |
+| [CSES 3220](./cses/32/20) |      Sliding Window Sum       |
 
 ### 프로그래머스
 
