@@ -74,17 +74,30 @@
 | [CSES 1069](./cses/10/69) |          Repetitions          |
 | [CSES 1070](./cses/10/70) |         Permutations          |
 | [CSES 1071](./cses/10/71) |         Number Spiral         |
+| [CSES 1073](./cses/10/73) |            Towers             |
 | [CSES 1083](./cses/10/83) |        Missing Number         |
 | [CSES 1094](./cses/10/94) |       Increasing Array        |
+| [CSES 1095](./cses/10/95) |        Exponentiation         |
 | [CSES 1141](./cses/11/41) |           Playlist            |
+| [CSES 1145](./cses/11/45) |    Increasing Subsequence     |
 | [CSES 1158](./cses/11/58) |           Book Shop           |
 | [CSES 1192](./cses/11/92) |        Counting Rooms         |
+| [CSES 1618](./cses/16/18) |        Trailing Zeros         |
 | [CSES 1621](./cses/16/21) |        Distint Numbers        |
+| [CSES 1622](./cses/16/22) |       Creating Strings        |
+| [CSES 1629](./cses/16/29) |        Movie Festival         |
 | [CSES 1638](./cses/16/38) |         Grid Paths I          |
+| [CSES 1641](./cses/16/41) |      Sum of Three Values      |
 | [CSES 1643](./cses/16/43) |     Maximum Subarray Sum      |
+| [CSES 1646](./cses/16/46) |   Static Range Sum Queries    |
+| [CSES 1647](./cses/16/47) | Static Range Minimum Queries  |
 | [CSES 1648](./cses/16/48) |   Dynamic Range Sum Queries   |
 | [CSES 1649](./cses/16/49) | Dynamic Range Minimum Queries |
+| [CSES 1650](./cses/16/50) |       Range Xor Queries       |
+| [CSES 1674](./cses/16/74) |         Subordinates          |
+| [CSES 1679](./cses/16/79) |        Course Schedule        |
 | [CSES 1745](./cses/17/45) |          Money Sums           |
+| [CSES 2165](./cses/21/65) |        Tower of Hanoi         |
 | [CSES 2428](./cses/24/28) | Distinct Values Subarrays II  |
 | [CSES 3220](./cses/32/20) |      Sliding Window Sum       |
 
