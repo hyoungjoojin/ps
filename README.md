@@ -78,6 +78,7 @@
 | [CSES 1083](./cses/10/83) |        Missing Number         |
 | [CSES 1094](./cses/10/94) |       Increasing Array        |
 | [CSES 1095](./cses/10/95) |        Exponentiation         |
+| [CSES 1131](./cses/11/31) |         Tree Diameter         |
 | [CSES 1141](./cses/11/41) |           Playlist            |
 | [CSES 1145](./cses/11/45) |    Increasing Subsequence     |
 | [CSES 1158](./cses/11/58) |           Book Shop           |
