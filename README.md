@@ -4,24 +4,28 @@
 
 ### LeetCode
 
-|          ID           |              Title              | Difficulty |
-| :-------------------: | :-----------------------------: | :--------: |
-|    [LC 1](./lc/1)     |             Two Sum             |    Easy    |
-|   [LC 20](./lc/20)    |        Valid Parentheses        |    Easy    |
-|   [LC 53](./lc/53)    |        Maximum Subarray         |   Medium   |
-|  [LC 204](./lc/20/4)  |          Count Primes           |   Medium   |
-|  [LC 215](./lc/21/5)  | Kth Largest Element in an Array |   Medium   |
-|  [LC 300](./lc/30/0)  | Longest Increasing Subsequence  |   Medium   |
-|  [LC 304](./lc/30/4)  | Range Sum Query 2D - Immutable  |   Medium   |
-|  [LC 344](./lc/34/4)  |         Reverse String          |    Easy    |
-|  [LC 347](./lc/34/7)  |     Top K Frequent Elements     |   Medium   |
-|  [LC 463](./lc/46/3)  |        Island Perimeter         |    Easy    |
-|  [LC 695](./lc/69/5)  |       Max Area of Island        |   Medium   |
-|  [LC 703](./lc/70/3)  | Kth Largest Element in a Stream |    Easy    |
-|  [LC 704](./lc/70/4)  |          Binary Search          |    Easy    |
-| [LC 1314](./lc/13/14) |        Matrix Block Sum         |   Medium   |
-| [LC 1584](./lc/15/84) | Min Cost to Connect All Points  |   Medium   |
-| [LC 1922](./lc/19/22) |       Count Good Numbers        |   Medium   |
+|          ID           |              Title               | Difficulty |
+| :-------------------: | :------------------------------: | :--------: |
+|    [LC 1](./lc/1)     |             Two Sum              |    Easy    |
+|   [LC 20](./lc/20)    |        Valid Parentheses         |    Easy    |
+|   [LC 35](./lc/35)    |      Search Insert Position      |    Easy    |
+|   [LC 53](./lc/53)    |         Maximum Subarray         |   Medium   |
+|  [LC 204](./lc/20/4)  |           Count Primes           |   Medium   |
+|  [LC 215](./lc/21/5)  | Kth Largest Element in an Array  |   Medium   |
+|  [LC 300](./lc/30/0)  |  Longest Increasing Subsequence  |   Medium   |
+|  [LC 304](./lc/30/4)  |  Range Sum Query 2D - Immutable  |   Medium   |
+|  [LC 344](./lc/34/4)  |          Reverse String          |    Easy    |
+|  [LC 347](./lc/34/7)  |     Top K Frequent Elements      |   Medium   |
+|  [LC 367](./lc/36/7)  |       Valid Perfect Square       |    Easy    |
+|  [LC 374](./lc/37/4)  |   Guess Number Higher or Lower   |    Easy    |
+|  [LC 463](./lc/46/3)  |         Island Perimeter         |    Easy    |
+|  [LC 540](./lc/54/0)  | Single Element in a Sorted Array |   Medium   |
+|  [LC 695](./lc/69/5)  |        Max Area of Island        |   Medium   |
+|  [LC 703](./lc/70/3)  | Kth Largest Element in a Stream  |    Easy    |
+|  [LC 704](./lc/70/4)  |          Binary Search           |    Easy    |
+| [LC 1314](./lc/13/14) |         Matrix Block Sum         |   Medium   |
+| [LC 1584](./lc/15/84) |  Min Cost to Connect All Points  |   Medium   |
+| [LC 1922](./lc/19/22) |        Count Good Numbers        |   Medium   |
 
 ### Codeforces
 
@@ -99,6 +103,7 @@
 | [CSES 1679](./cses/16/79) |        Course Schedule        |
 | [CSES 1745](./cses/17/45) |          Money Sums           |
 | [CSES 2165](./cses/21/65) |        Tower of Hanoi         |
+| [CSES 2183](./cses/21/83) |       Missing Coin Sum        |
 | [CSES 2428](./cses/24/28) | Distinct Values Subarrays II  |
 | [CSES 3220](./cses/32/20) |      Sliding Window Sum       |
 
