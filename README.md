@@ -23,6 +23,7 @@
 |  [LC 695](./lc/69/5)  |        Max Area of Island        |   Medium   |
 |  [LC 703](./lc/70/3)  | Kth Largest Element in a Stream  |    Easy    |
 |  [LC 704](./lc/70/4)  |          Binary Search           |    Easy    |
+|  [LC 881](./lc/88/1)  |       Boats to Save People       |   Medium   |
 | [LC 1314](./lc/13/14) |         Matrix Block Sum         |   Medium   |
 | [LC 1584](./lc/15/84) |  Min Cost to Connect All Points  |   Medium   |
 | [LC 1922](./lc/19/22) |        Count Good Numbers        |   Medium   |
@@ -80,20 +81,25 @@
 | [CSES 1071](./cses/10/71) |         Number Spiral         |
 | [CSES 1073](./cses/10/73) |            Towers             |
 | [CSES 1083](./cses/10/83) |        Missing Number         |
+| [CSES 1090](./cses/10/90) |         Ferris Wheel          |
+| [CSES 1091](./cses/10/91) |        Concert Tickets        |
 | [CSES 1094](./cses/10/94) |       Increasing Array        |
 | [CSES 1095](./cses/10/95) |        Exponentiation         |
 | [CSES 1131](./cses/11/31) |         Tree Diameter         |
 | [CSES 1141](./cses/11/41) |           Playlist            |
 | [CSES 1145](./cses/11/45) |    Increasing Subsequence     |
 | [CSES 1158](./cses/11/58) |           Book Shop           |
+| [CSES 1163](./cses/11/63) |        Traffic Lights         |
 | [CSES 1192](./cses/11/92) |        Counting Rooms         |
 | [CSES 1618](./cses/16/18) |        Trailing Zeros         |
+| [CSES 1619](./cses/16/19) |     Restaurant Customers      |
 | [CSES 1621](./cses/16/21) |        Distint Numbers        |
 | [CSES 1622](./cses/16/22) |       Creating Strings        |
 | [CSES 1629](./cses/16/29) |        Movie Festival         |
 | [CSES 1638](./cses/16/38) |         Grid Paths I          |
 | [CSES 1641](./cses/16/41) |      Sum of Three Values      |
 | [CSES 1643](./cses/16/43) |     Maximum Subarray Sum      |
+| [CSES 1645](./cses/16/45) |    Nearest Smaller Values     |
 | [CSES 1646](./cses/16/46) |   Static Range Sum Queries    |
 | [CSES 1647](./cses/16/47) | Static Range Minimum Queries  |
 | [CSES 1648](./cses/16/48) |   Dynamic Range Sum Queries   |
