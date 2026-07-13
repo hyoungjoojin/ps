@@ -10,6 +10,7 @@
 |   [LC 20](./lc/20)    |        Valid Parentheses         |    Easy    |
 |   [LC 35](./lc/35)    |      Search Insert Position      |    Easy    |
 |   [LC 53](./lc/53)    |         Maximum Subarray         |   Medium   |
+|   [LC 74](./lc/74)    |        Search a 2D Matrix        |   Medium   |
 |  [LC 204](./lc/20/4)  |           Count Primes           |   Medium   |
 |  [LC 215](./lc/21/5)  | Kth Largest Element in an Array  |   Medium   |
 |  [LC 300](./lc/30/0)  |  Longest Increasing Subsequence  |   Medium   |
@@ -23,7 +24,9 @@
 |  [LC 695](./lc/69/5)  |        Max Area of Island        |   Medium   |
 |  [LC 703](./lc/70/3)  | Kth Largest Element in a Stream  |    Easy    |
 |  [LC 704](./lc/70/4)  |          Binary Search           |    Easy    |
+|  [LC 875](./lc/87/5)  |       Koko Eating Bananas        |   Medium   |
 |  [LC 881](./lc/88/1)  |       Boats to Save People       |   Medium   |
+|  [LC 981](./lc/98/1)  |    Time Based Key-Value Store    |   Medium   |
 | [LC 1314](./lc/13/14) |         Matrix Block Sum         |   Medium   |
 | [LC 1584](./lc/15/84) |  Min Cost to Connect All Points  |   Medium   |
 | [LC 1922](./lc/19/22) |        Count Good Numbers        |   Medium   |
