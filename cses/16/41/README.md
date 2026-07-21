@@ -12,3 +12,7 @@ that the values at those positions add up to a given number.
 ### Binary Search
 
 > Implementation: [C++ (0.23s)](./src/a.cpp)
+
+### Two Pointers
+
+> Implementation: [C++ (0.03s)](./src/b.cpp)

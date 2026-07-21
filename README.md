@@ -83,7 +83,9 @@
 | [CSES 1070](./cses/10/70) |         Permutations          |
 | [CSES 1071](./cses/10/71) |         Number Spiral         |
 | [CSES 1073](./cses/10/73) |            Towers             |
+| [CSES 1074](./cses/10/74) |         Stick Lengths         |
 | [CSES 1083](./cses/10/83) |        Missing Number         |
+| [CSES 1084](./cses/10/84) |          Apartments           |
 | [CSES 1090](./cses/10/90) |         Ferris Wheel          |
 | [CSES 1091](./cses/10/91) |        Concert Tickets        |
 | [CSES 1094](./cses/10/94) |       Increasing Array        |
@@ -100,6 +102,7 @@
 | [CSES 1622](./cses/16/22) |       Creating Strings        |
 | [CSES 1629](./cses/16/29) |        Movie Festival         |
 | [CSES 1638](./cses/16/38) |         Grid Paths I          |
+| [CSES 1640](./cses/16/40) |       Sum of Two Values       |
 | [CSES 1641](./cses/16/41) |      Sum of Three Values      |
 | [CSES 1643](./cses/16/43) |     Maximum Subarray Sum      |
 | [CSES 1645](./cses/16/45) |    Nearest Smaller Values     |
@@ -113,6 +116,7 @@
 | [CSES 1745](./cses/17/45) |          Money Sums           |
 | [CSES 2165](./cses/21/65) |        Tower of Hanoi         |
 | [CSES 2183](./cses/21/83) |       Missing Coin Sum        |
+| [CSES 2216](./cses/22/16) |      Collecting Numbers       |
 | [CSES 2428](./cses/24/28) | Distinct Values Subarrays II  |
 | [CSES 3220](./cses/32/20) |      Sliding Window Sum       |
 
